@@ -1,28 +1,25 @@
 ---
+layout: default
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-	<link rel="stylesheet" href="/css/site.css">
-	<script src="/js/site.js"></script>
-	<title>My Blog</title>
-</head>
-<body>
-	<header>
-		{% include header.html %}
-	</header>
-	<div class="container">
-		{% for post in site.posts %}
-			<article>
-				<h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
-				<p>{{ post.date | date_to_string }}</p>
-				<p>{{ post.content }}</p>
-			</article>
-		{% endfor %}
+<div class="row main-content">
+  <div class="offset2 span8 zone-content">
+		<h1>
+      Data Science for Social Good fellowship
+    </h1>
+    <h2>
+      We’re training data scientists to tackle the problems that really matter
+    </h2>
+    <br><br>
+    <p>
+      DSSG is a University of Chicago summer program for aspiring data scientists to work on big data projects with social impact.
+    </p>
+    <p>
+      Working closely with governments and nonprofits, fellows will take on real-world problems in education, health, energy, transportation, and more.
+    </p>
+    <p>
+      For three months in Chicago, they’ll apply their coding and analytics skills, collaborate in a fast-paced atmosphere, and learn from mentors in industry, academia, and the Obama campaign.
+    </p>
+    <a href="/people.html" class="button-link">Meet our fellows</a>
 	</div>
-	<footer>
-		{% include footer.html %}
-	</footer>
-</body>
-</html>
+</div>
