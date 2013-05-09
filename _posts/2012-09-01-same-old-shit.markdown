@@ -1,13 +1,22 @@
 ---
 layout: post
-title: The Myth of Perfect
+title: The Myth of Perfect - Let's see what happens when long titles
 ---
 
 <div class="row">
 	<div class="offset2 span8 zone-content">
 		<p>
-			I <a href="http://rainypixels.com/words/gray-matters/">recently left Microsoft</a> to start a company named <a href="http://weareminky.com">Minky</a> with my wife, Pita. We never planned on doing client work but when my ex-manager and champion of good things at Microsoft, <a href="http://about.me/JeffSandquist">Jeff Sandquist</a>, invited me to come on board to help design the Build 2013 experience, I, or should I say, Minky, couldn&#8217;t resist. Having collaborated on <a href="http://rainypixels.com/words/build-it-fast/">the creative for the 2012 conference</a> with the <a href="http://paravelinc.com">3 amigos</a> and Jeff, I was excited at the prospect of helping evolve the Build brand.
+			I <a href="http://rainypixels.com/words/gray-matters/">recently left Microsoft</a> to start a company named <a href="http://weareminky.com">Minky</a> with my wife, Pita.
 		</p>
+
+		<p>
+			We never planned on doing client work but when my ex-manager and champion of good things at Microsoft, <a href="http://about.me/JeffSandquist">Jeff Sandquist</a>, invited me to come on board to help design the Build 2013 experience, I, or should I say, Minky, couldn&#8217;t resist.
+		</p>
+
+		<p>
+			Having collaborated on <a href="http://rainypixels.com/words/build-it-fast/">the creative for the 2012 conference</a> with the <a href="http://paravelinc.com">3 amigos</a> and Jeff, I was excited at the prospect of helping evolve the Build brand.
+		</p>
+		
 	</div>
 </div>
 
