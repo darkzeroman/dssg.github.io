@@ -1,4 +1,9 @@
-body {
-	font-family: Helvetica;
-	font-size: 75%;
+.date {
+	text-align: center;
+}
+
+.center {
+	margin: 3em auto; 
+	display: block; 
+	width: 100%;
 }
