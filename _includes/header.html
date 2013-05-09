@@ -4,6 +4,17 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Typekit web fonts -->
+  <script type="text/javascript">
+  (function() {
+    var config = {
+      kitId: 'nun2axp',
+      scriptTimeout: 3000
+    };
+    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
+    })();
+  </script>
+
   <!-- Boostrap -->
   <link href="/css/bootstrap.min.css" rel="stylesheet">
   <link href="/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -17,20 +28,6 @@
   <link href="/css/template.css" rel="stylesheet">
   <link href="/css/colors/color-nytimes.css" rel="stylesheet" id="colorcss">
   <link href="/css/site.css" rel="stylesheet">
-
-  <!-- Web fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Poiret+One|PT+Serif|Open+Sans' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Montserrat|Lato' rel='stylesheet' type='text/css'>
-
-  <script type="text/javascript">
-  (function() {
-    var config = {
-      kitId: 'nun2axp',
-      scriptTimeout: 3000
-    };
-    var h=document.getElementsByTagName("html")[0];h.className+=" wf-loading";var t=setTimeout(function(){h.className=h.className.replace(/(\s|^)wf-loading(\s|$)/g," ");h.className+=" wf-inactive"},config.scriptTimeout);var tk=document.createElement("script"),d=false;tk.src='//use.typekit.net/'+config.kitId+'.js';tk.type="text/javascript";tk.async="true";tk.onload=tk.onreadystatechange=function(){var a=this.readyState;if(d||a&&a!="complete"&&a!="loaded")return;d=true;clearTimeout(t);try{Typekit.load(config)}catch(b){}};var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(tk,s)
-  })();
-  </script>
 
   <script src="/js/modernizr.js"></script>
   <script src="/js/site.js"></script>
