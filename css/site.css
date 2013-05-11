@@ -27,7 +27,7 @@
 
 .headline p {
 	color: #BDC3C7;
-	font-size: 45px; 
+	font-size: 40px; 
 	font-weight: 400;
 	line-height: 40px; 
 	letter-spacing: -2px;
@@ -38,10 +38,25 @@
 .headline small {
     color: rgba(52, 73, 94, 0.3);
     display: block;
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 40px;
+    /*font-weight: 700;*/
     letter-spacing: -1px;
-    padding-top: 5px; }
+    padding-top: 5px; 
+}
+
+@media (max-width: 480px) {
+	.headline {
+		font-size: 65px;
+		line-height: 50px;
+	}
+	.headline p {
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.headline small {
+		font-size: 30px;
+	}
+}
 
 /*.headline .logo {
 	background: url("../images/new/signal_noise.svg") center 0 no-repeat;
@@ -54,14 +69,63 @@
 
 /* People page */
 
-.people img {
+.people .span2 {
+	height: 350px;
 	width: 200px;
-	height: 200px;
+	max-width: 100%;
+	display: block;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+@media (max-width: 767px) { 
+	.people .span2 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.people img {
+	width: 150px;
+	height: 150px;
 	border-radius: 50%;
 	display: block;
-	margin: 0 auto;
-	margin-bottom: 20px
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px
 }
+
+.people h4 {
+	text-align: center
+}
+
+.people p {
+	text-align: center;
+	font-size: 15px;
+	margin: 0px;
+}
+
+.people .icons {
+	width: 45px;
+	height: 10px;
+	display: block;
+	margin: 5px auto;
+}
+
+.people .icons a {
+	text-decoration: none;
+	color: rgba(66,63,55,0.15);
+	-webkit-transition: color 0.15s;
+	-moz-transition: color 0.15s;
+	-o-transition: color 0.15s;
+	transition: color 0.15s;
+}
+
+.people .icons a:hover {
+	color: rgb(73, 78, 85);
+}
+
+
 
 /* Blog */
 .date {
