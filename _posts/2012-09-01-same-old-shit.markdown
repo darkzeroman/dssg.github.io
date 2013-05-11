@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Myth of Perfect - Let's see what happens when long titles
+title: The Myth of Perfect
 ---
 
 <div class="row">
