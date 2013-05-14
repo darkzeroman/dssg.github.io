@@ -1,29 +1,62 @@
-/* Navbar */
+/* Remove padding from body so navbar and footer don't look weird */
+body {
+	padding: 0;
+}
+
+/* Add padding back in through container so text looks right on small screens */
+.container {
+	padding: 0 20px;
+}
+
+/* Space out each section on home and people pages */
+.section {
+	margin-top: 70px;
+}
+
+/* Make <h1> page headings stick out */
+.page-heading {
+	font-size: 50px;
+	font-weight: bold;
+	margin: 50px 0;
+}
+
+
+/* NAVBAR */
+.masthead {
+	padding: 20px 0;
+	background-color: rgb(247, 248, 248);	
+}
+
 #logopic {
 	margin-top: 7px;
+	margin-right: 10px;
 }
 
 #logotype {
 	font-family: 'Lato';
 	font-weight: 400;
 	font-size: 40px;
+	letter-spacing: -2px;
 	text-rendering: optimizelegibility;
 	color: #4c7a9f;
-	margin-left: 10px;
-	margin-bottom: 20px;
-	letter-spacing: -2px;
+	/*Overwrite default h1 margin so navab fits*/
+	margin-bottom: 0px;
 }
 
-/* Home page */
+
+/* HOME PAGE */
+
+/* Headline styles */
 .headline {
 	font-size: 75px;
 	font-weight: 900;
 	letter-spacing: -2px;
 	line-height: 80px; 
 	text-align: center;
-	margin: 70px 0;
 	padding: 0 10px;
-	}
+	/*Overwrite default h1 margin so page fits*/
+	margin-bottom: 0px;
+}
 
 .headline p {
 	color: #BDC3C7;
@@ -35,15 +68,7 @@
 	text-align: center;
 }
 
-.headline small {
-    color: rgba(52, 73, 94, 0.3);
-    display: block;
-    font-size: 40px;
-    /*font-weight: 700;*/
-    letter-spacing: -1px;
-    padding-top: 5px; 
-}
-
+/* Adjust headline for small screens */
 @media (max-width: 480px) {
 	.headline {
 		font-size: 65px;
@@ -67,7 +92,38 @@
 	text-indent: -9999em;
 	width: 256px; }*/
 
-/* People page */
+#partners h1 {
+	margin-bottom: 40px;
+}
+
+/*Line up partner logos*/
+#partners .span2 {
+	width: 180px;
+	height: 67px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	display: block;
+}
+#partners img {
+	vertical-align: middle;
+}
+
+#ci {
+	margin-top: -30px; 
+}
+
+#urbanccd {
+	margin-top: -12px;
+}
+
+#argonne {
+	margin-top: -18px;
+}
+
+
+
+/* PEOPLE PAGE */
+/* Makes people headshots and bios look right */
 
 .people .span2 {
 	height: 350px;
@@ -125,9 +181,13 @@
 	color: rgb(73, 78, 85);
 }
 
+/* Hacky way to space out the advisors */
+#advisors .span2 {
+	margin-left: 150px;
+}
 
 
-/* Blog */
+/* BLOG */
 .date {
 	text-align: center;
 }
@@ -136,4 +196,15 @@
 	margin: 3em auto; 
 	display: block; 
 	width: 100%;
+}
+
+/* FOOTER */
+footer {
+	background-color: rgb(247, 248, 248);	
+	padding-top: 20px; 
+	padding-bottom: 100px;
+}
+
+footer i {
+	vertical-align: middle;
 }
