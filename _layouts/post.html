@@ -2,12 +2,14 @@
 layout: default
 ---
 
-<article class="main-content container">
+<article class="container">
 	<!-- Post title and date -->
 	<div class="row">
 		<div class="offset2 span8">
-			<h1><a href="{{ page.url }}">{{ page.title }}</a></h1> 
-		    <p class="date">{{ page.date | date_to_string }}</p>
+			<div class='page-header'>
+			<h1 class="post-title"><a href="{{ page.url }}">{{ page.title }}</a></h1> 
+		    <p class="post-date-author">{{ page.date | date_to_string }} - {{ page.author }}</p>
+		</div>
 		    <!-- Post content -->
     		{{ content }}
     	</div>

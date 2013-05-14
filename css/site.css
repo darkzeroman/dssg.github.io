@@ -14,7 +14,7 @@ body {
 }
 
 /* Make <h1> page headings stick out */
-.page-heading {
+.section-title {
 	font-size: 50px;
 	font-weight: bold;
 	margin: 50px 0;
@@ -182,9 +182,16 @@ body {
 }
 
 
-/* BLOG */
-.date {
+/* POST */
+.post-title {
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.post-date-author {
 	text-align: center;
+	font-style: italic;
 }
 
 .center {
