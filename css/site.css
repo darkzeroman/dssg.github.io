@@ -83,14 +83,9 @@ body {
 	}
 }
 
-/*.headline .logo {
-	background: url("../images/new/signal_noise.svg") center 0 no-repeat;
-	background-size: 256px 186px;
-	height: 186px;
-	margin: 0 auto 26px;
-	overflow: hidden;
-	text-indent: -9999em;
-	width: 256px; }*/
+.button-link h3 {
+	font-size: 20px;
+}
 
 #partners h1 {
 	margin-bottom: 40px;
