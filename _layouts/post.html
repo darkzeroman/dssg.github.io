@@ -8,9 +8,9 @@ layout: default
 		<div class="offset2 span8">
 			<h1><a href="{{ page.url }}">{{ page.title }}</a></h1> 
 		    <p class="date">{{ page.date | date_to_string }}</p>
+		    <!-- Post content -->
+    		{{ content }}
     	</div>
     </div>
-    <!-- Post content -->
-    {{ content }}
 </article>
 
