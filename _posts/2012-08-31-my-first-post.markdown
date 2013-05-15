@@ -14,8 +14,6 @@ None of this is inevitable, however.
 
 We're at the dawn of using data science for social impact. We face steep hurdles to widespread adoption:
 
-1. There are too few data scientists out there - and too many spending their days optimizing ad clicks instead of bettering lives.
+1. There are too few data scientists out there - and too many spending their days chasing ad clicks instead of bettering lives.
 
 2. Most governments and nonprofits simply don't know what's possible yet.
-
-To seize the opportunity, we need ways of training people, and demonstrating what's possible.
