@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script type="text/javascript">
+      window.onload = function () {
+          var chart = new CanvasJS.Chart("chartContainer", {
+              theme: "theme2",//theme1
+              title:{
+                  text: "Gender Breakdown of Fellows"              
+             },
+              data: [              
+              {
+//
+                  type: "bar",
+                  dataPoints: [
+                  { label: "Female", y: 11 },
+                  { label: "Male", y: 25 },
+                  ]
+              }
+              ]
+          });
+
+          chart.render();
+      }
+  </script>
+  <script type="text/javascript" src="/js/canvasjs-1.0.2/canvasjs.min.js"></script>
+</head>
+<body>
+  <div id="chartContainer" style="height: 300px; width: 100%;">
+  </div>
+</body>
+</html>
