@@ -66,6 +66,6 @@ Our deepest thanks to everyone who applied, and everyone who's helped the fellow
 
 - To follow our work and learn what we are doing, keep watching this space.
 
-- If you're a government or nonprofit who'd like to get involved in the future, or a seasoned data scientist who wants to help the fellows, <a href="www.twitter.com/datascifellows">tweet</a> or <a href="mailto:datascifellows@gmail.com">email us</a>.
+- If you're a government or nonprofit who'd like to get involved in the future, or a seasoned data scientist who wants to help the fellows, <a href="www.twitter.com/datascifellows">tweet</a> or <a href="mailto:datascifellowship@ci.uchicago.edu">email us</a>.
 
 ### We can't wait to show you how data science can better the world - and why Chicago is the place the do it.
