@@ -47,6 +47,17 @@ body {
 /* HOME PAGE */
 
 /* Headline styles */
+
+#splash {
+	/*background-color: black;	*/
+	background-image:url(/img/shoreline.png); 
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	margin: 0;
+	padding-top: 120px; 
+	padding-bottom: 120px;
+}
+
 .headline {
 	font-size: 75px;
 	font-weight: 900;
@@ -56,10 +67,11 @@ body {
 	padding: 0 10px;
 	/*Overwrite default h1 margin so page fits*/
 	margin-bottom: 0px;
+	color: #4693d1;
 }
 
 .headline p {
-	color: #BDC3C7;
+	color: rgb(247, 248, 248);
 	font-size: 40px; 
 	font-weight: 400;
 	line-height: 40px; 
