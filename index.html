@@ -60,70 +60,76 @@ layout: default
       </div>
   </div>
 
-  <div id="fellows" class="row section people">
+  <div id="fellows" class="row section">
     <hr>
     <h2>Our Fellows</h2>
-    <p>Thirty six fellows are coming to Chicago from all over the country.</p>
+    <p>We're bringing thirty six aspiring data scientists from across the country to Chicago. They're graduate and undergraduate students from quantitative and computational fields - from computer science to statistics to public policy.</p> 
+    <p>From June to August, they'll work in small teams on an analytics project for a nonprofit, local government, or federal agency. Fellows will explore dozens of datasets from the worlds of energy, medicine, online education, public transit, and more. They'll analyze them to discover useful insights. And they'll learn from decision-makers on the front lines of public policy.</p> 
     <br>
-     <div class="span2">
-      <img src="/img/people/cheung.jpg" alt="Kyla Cheung">
-      <h4>Kyla Cheung</h4>
-      <p>Computer Science</p>
-      <p>Columbia University</p>
-    </div>
-
-    <div class="span2">
-      <img src="/img/people/brown.jpg" alt="Christopher Brown">
-      <h4>Christopher Brown</h4>
-      <p>Linguistics</p>
-      <p>UT Austin</p>
-    </div>
-
-    <div class="span2">
-      <img src="/img/people/bashyakarla.jpg" alt="Varoon Bashyakarla">
-      <h4>Varoon Bashyakarla</h4>
-      <p>Statistics, Economics</p>
-      <p>Yale University</p>
-    </div>
-
-    <div class="span3">
-      <a href="/people/" class="button-link">
-        Meet our Fellows →
-      </a>
-    </div>
-   </div>
-
-  <div id="fellows" class="row section people">
-      <hr>
-      <h2>Our Mentors</h2>
-      <br>
+    <div class="people">
       <div class="span2">
-        <img src="/img/people/mader.jpg" alt="Nick Mader">
-        <h4>Nick Mader</h4>
-        <p>Economist PhD at Chapin Hall</p>
+        <img src="/img/people/cheung.jpg" alt="Kyla Cheung">
+        <h4>Kyla Cheung</h4>
+        <p>Computer Science</p>
+        <p>Columbia University</p>
       </div>
       <div class="span2">
-        <img src="/img/people/eneva.jpg" alt="Elena Eneva">
-        <h4>Elena Eneva</h4>
-        <p>Machine learning expert at Accenture</p>
+        <img src="/img/people/brown.jpg" alt="Christopher Brown">
+        <h4>Christopher Brown</h4>
+        <p>Linguistics</p>
+        <p>UT Austin</p>
       </div>
       <div class="span2">
-        <img src="/img/people/carlson.jpg" alt="Virginia Carlson">
-        <h4>Virginia Carlson</h4>
-        <p>Economic policy and stats PhD</p>
+        <img src="/img/people/bashyakarla.jpg" alt="Varoon Bashyakarla">
+        <h4>Varoon Bashyakarla</h4>
+        <p>Statistics, Economics</p>
+        <p>Yale University</p>
       </div>
       <div class="span3">
-        <a href="/people/#mentors" class="button-link">
-          Meet our Mentors →
+        <a href="/people/" class="button-link">
+          Meet our Fellows →
         </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="fellows" class="row section">
+      <hr>
+      <h2>Our Mentors</h2>
+      <p>
+        Our mentors are experienced data scientists and researchers from business, academia, and nonprofits. They'll work with fellow teams full-time this summer. They'll help fellows brainstorm projects, apply their coding and quantitative skills, and work with partner organizations. 
+      </p>
+      <br>
+      <div class="people">
+        <div class="span2">
+          <img src="/img/people/mader.jpg" alt="Nick Mader">
+          <h4>Nick Mader</h4>
+          <p>Economist PhD at Chapin Hall</p>
+        </div>
+        <div class="span2">
+          <img src="/img/people/eneva.jpg" alt="Elena Eneva">
+          <h4>Elena Eneva</h4>
+          <p>Machine learning expert at Accenture</p>
+        </div>
+        <div class="span2">
+          <img src="/img/people/carlson.jpg" alt="Virginia Carlson">
+          <h4>Virginia Carlson</h4>
+          <p>Economic policy and stats PhD</p>
+        </div>
+        <div class="span3">
+          <a href="/people/#mentors" class="button-link">
+            Meet our Mentors →
+          </a>
+        </div>
       </div>
     </div>
 
     <div id="partners" class="row section">
         <hr>
         <h2>The Blog</h2>
-        <br>
+        <p>Read our blog to follow the fellowship and learn about our projects.
         {% for post in site.posts %}
+        <br>
         <article>
           <h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
           <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
