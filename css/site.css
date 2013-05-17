@@ -132,6 +132,12 @@ body {
 	margin-top: -18px;
 }
 
+/* Adapt people pics for front page */
+#fellows .span2 {
+	margin-bottom: 30px;
+	margin-right: 50px;
+	height: 250px;
+}
 
 
 /* PEOPLE PAGE */

@@ -60,6 +60,78 @@ layout: default
       </div>
   </div>
 
+  <div id="fellows" class="row section people">
+    <hr>
+    <h2>Our Fellows</h2>
+    <p>Thirty six fellows are coming to Chicago from all over the country.</p>
+    <br>
+     <div class="span2">
+      <img src="/img/people/cheung.jpg" alt="Kyla Cheung">
+      <h4>Kyla Cheung</h4>
+      <p>Computer Science</p>
+      <p>Columbia University</p>
+    </div>
+
+    <div class="span2">
+      <img src="/img/people/brown.jpg" alt="Christopher Brown">
+      <h4>Christopher Brown</h4>
+      <p>Linguistics</p>
+      <p>UT Austin</p>
+    </div>
+
+    <div class="span2">
+      <img src="/img/people/bashyakarla.jpg" alt="Varoon Bashyakarla">
+      <h4>Varoon Bashyakarla</h4>
+      <p>Statistics, Economics</p>
+      <p>Yale University</p>
+    </div>
+
+    <div class="span3">
+      <a href="/people/" class="button-link">
+        Meet our Fellows →
+      </a>
+    </div>
+   </div>
+
+  <div id="fellows" class="row section people">
+      <hr>
+      <h2>Our Mentors</h2>
+      <br>
+      <div class="span2">
+        <img src="/img/people/mader.jpg" alt="Nick Mader">
+        <h4>Nick Mader</h4>
+        <p>Economist PhD at Chapin Hall</p>
+      </div>
+      <div class="span2">
+        <img src="/img/people/eneva.jpg" alt="Elena Eneva">
+        <h4>Elena Eneva</h4>
+        <p>Machine learning expert at Accenture</p>
+      </div>
+      <div class="span2">
+        <img src="/img/people/carlson.jpg" alt="Virginia Carlson">
+        <h4>Virginia Carlson</h4>
+        <p>Economic policy and stats PhD</p>
+      </div>
+      <div class="span3">
+        <a href="/people/#mentors" class="button-link">
+          Meet our Mentors →
+        </a>
+      </div>
+    </div>
+
+    <div id="partners" class="row section">
+        <hr>
+        <h2>The Blog</h2>
+        <br>
+        {% for post in site.posts %}
+        <article>
+          <h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+          <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
+        </article>
+        {% endfor %}
+    </div>
+  </div>
+
 </div>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
