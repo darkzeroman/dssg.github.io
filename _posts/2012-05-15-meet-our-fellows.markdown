@@ -1,8 +1,8 @@
 ---
 published: true
 layout: post
-title: Meet our fellows
-author: "Juan-Pablo Velez, Matt Gee"
+title: "Data Science for Social Good - the fellowship and our fellows"
+author: "Rayid Ghani, Juan-Pablo Velez, Matt Gee"
 
 ---
 
@@ -66,6 +66,6 @@ This is our first time running this program, so we're still figuring things out.
 
 - To follow our work and learn about our project, keep watching this space.
 
-- If you're a government or nonprofit who'd like to get involved in the future, or a seasoned data scientist who wants to help the fellows, [tweet](www.twitter.com/datascifellows) or [email us](mailto:datascifellowship@ci.uchicago.edu).
+- If you're a government or nonprofit who'd like to get involved in the future, or a seasoned data scientist who wants to help the fellows, [tweet](http://www.twitter.com/datascifellows) or [email us](mailto:datascifellowship@ci.uchicago.edu).
 
 **We can't wait to show you how data science can better the world - and why Chicago is the place the do it.**
