@@ -28,19 +28,24 @@ body {
 }
 
 #logopic {
-	margin-top: 7px;
+	margin-top: 10px;
 	margin-right: 10px;
 }
 
 #logotype {
 	font-family: 'Lato';
 	font-weight: 400;
-	font-size: 40px;
+	font-size: 35px;
 	letter-spacing: -2px;
 	text-rendering: optimizelegibility;
 	color: #4c7a9f;
 	/*Overwrite default h1 margin so navab fits*/
 	margin-bottom: 0px;
+}
+
+#uofcpic {
+	margin-left: 20px;
+	margin-top: 22px;
 }
 
 
