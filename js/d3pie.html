@@ -36,7 +36,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
 
-d3.csv("fellows_diciplines.csv", function(error, data) {
+d3.csv("fellows_disciplines.csv", function(error, data) {
 
   data.forEach(function(d) {
     d.Number_of_Fellows = +d.Number_of_Fellows;
