@@ -1,1 +1,3 @@
 server_port:  5000
+prose:
+	siteurl: "http://www.dssg.io"
