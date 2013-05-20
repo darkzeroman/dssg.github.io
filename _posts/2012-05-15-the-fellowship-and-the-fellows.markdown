@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: "Data Science for Social Good - the fellowship and our fellows"
+title: The Fellowship and the Fellows
 author: "Rayid Ghani, Juan-Pablo Velez, Matt Gee"
 
 ---
