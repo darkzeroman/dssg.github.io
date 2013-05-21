@@ -158,7 +158,9 @@ p {
 
 /* Creates 3 people rows for advisors and staff on home and people pages */
 .people .span4 {
-	margin-bottom: 60px;
+	height:  280px;
+	display: block;
+	margin-bottom: 80px;
 }
 
 .people img {
@@ -174,6 +176,11 @@ p {
 	text-align: center;
 	font-size: 15px;
 	margin: 0px;
+}
+
+.people .span4 p {
+	width: 300px;
+	margin: 0 auto;
 }
 
 .people h6 {
