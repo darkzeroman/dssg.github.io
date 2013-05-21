@@ -221,6 +221,12 @@ p {
 	margin: 30px auto;
 }
 
+#email-list {
+	display: block;
+	margin: 60px auto;
+	width: 300px;
+}
+
 /* FOOTER */
 
 #footer h6 {
