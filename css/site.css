@@ -184,7 +184,7 @@ p {
 .people .span4 {
 	height:  280px;
 	display: block;
-	margin-bottom: 8g0px;
+	margin-bottom: 80px;
 }
 
 .people img {
@@ -265,7 +265,6 @@ p {
 #email-list {
 	display: block;
 	margin: 60px auto;
-	width: 300px;
 }
 
 /* FOOTER */
