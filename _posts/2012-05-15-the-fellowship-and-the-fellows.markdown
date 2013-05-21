@@ -48,7 +48,17 @@ The response was overwelming: <strong>550</strong> aspiring data scientists appl
 
 We read every application and interviewed nearly a hundred people. In the end, we picked <strong>36</strong> amazing fellows. (That's 6.545% of the applicant pool, for you bean counters.)
 
-They'll be flying to Chicago from all across the country at the beginning of June. [Click here](/people/) to meet them.
+They'll be flying to Chicago from all across the country at the beginning of June. 
+
+<div class="row">
+	<div class="span4 offset2">
+    	<a href="/people/" class="btn btn-huge btn-block btn-embossed btn-danger">
+     		Click here to meet our Fellows →
+    	</a>
+	</div>
+</div>
+<br><br>
+
 
 The fellows are a mix of grad students and undergrads.
 
