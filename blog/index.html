@@ -3,16 +3,20 @@ layout: default
 ---
 <div class="container">
 
-  <h1 class="section-title">
+  <h2 class="page-title">
     Blog
-  </h1>
+    <hr>
+  </h2>
+  <p>
+    Read our blog to follow the fellowship and learn about our projects. 
+  </p>
 
   <div class="row section">
     <div class="span6 offset3">
 
     {% for post in site.posts %}
       <article>
-        <h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+        <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
         <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
       </article>
     {% endfor %}
