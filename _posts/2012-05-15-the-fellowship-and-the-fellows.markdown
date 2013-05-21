@@ -2,7 +2,7 @@
 published: true
 layout: post
 title: The Fellowship and the Fellows
-author: "Rayid Ghani, Juan-Pablo Velez, Matt Gee"
+author: "Juan-Pablo Velez, Matt Gee, Rayid Ghani"
 
 ---
 
@@ -52,11 +52,7 @@ They'll be flying to Chicago from all across the country at the beginning of Jun
 
 The fellows are a mix of grad students and undergrads.
 
-MATT PIE CHART 1
-
 In terms of disciplines, they strike a good balance of the computer science, machine learning, statistics, and domain expertise skills that make up data science.
-
-MATT PIE CHART 2
 
 This is deliberate: we don't believe in the all-knowing, do-everything data scientist rock star. We're going to focus on [building data science teams](http://assets.en.oreilly.com/1/eventseries/23/Building-Data-Science-Teams.pdf) this summer.
 
