@@ -6,14 +6,14 @@ author: "Rayid Ghani, Juan-Pablo Velez, Matt Gee"
 
 ---
 
-### The data deluge
+#### The data deluge
 As technology penetrates further into everyday life, we're creating a flood of data. (We could quote all the Gartner and Forrester studies, but we'll spare you.)
 
 Businesses are scrambling to find data scientists - an emerging hybrid of programmer, statistician, and domain expert - to make sense of all this data and turn it into better decisions.
 
 Businesses aren't alone. Data science - we use the current buzzword, but earlier ones such as analytics, machine learning, and data mining also apply - could transform how governments and nonprofits tackle society's problems.
 
-### The opportunity
+#### The opportunity
 By analyzing data from police reports to website clicks to sensor signals, **governments** are starting to spot problems in real-time and design programs for maximum impact. More **nonprofits** are measuring whether or not they're helping people, and experimenting to find interventions that work.
 
 None of this is inevitable, however. 
@@ -26,7 +26,7 @@ We're just realizing the potential of using data for social impact. We face hurd
 
 To make an impact, we need to show social good organizations the power of data by doing high-impact analytics projects. And we need to expose data scientists to the problems that really matter.
 
-### The fellowship
+#### The fellowship
 That's exactly why we're doing the Eric and Wendy Schmidt Data Science for Social Good summer fellowship at the University of Chicago. 
 
 We want to bring three dozen aspiring data scientists to Chicago, and have them work on data science projects with social impact.
@@ -37,7 +37,7 @@ Over the next three months, they’ll apply their coding and quantitative skills
 
 The program is lead by <strong>Rayid Ghani</strong>, former chief data scientist for the Obama 2012 campaign and newly appointed fellow at the University of Chicago's Computation Institute and Harris Public Policy School.
 
-### The fellows
+#### The fellows
 Rayid and Google Chairman Eric Schmidt hatched the idea in March, and we put out a call for applications immediately. 
 
 The response was overwelming: <strong>550</strong> aspiring data scientists applied from all over the world.
