@@ -28,34 +28,6 @@ p {
 	margin-bottom: 30px;
 }
 
-/* NAVBAR */
-/*.masthead {
-	padding: 20px 0;
-	background-color: rgb(247, 248, 248);	
-}
-
-#logopic {
-	margin-top: 10px;
-	margin-right: 10px;
-}
-
-#logotype {
-	font-family: 'Lato';
-	font-weight: 400;
-	font-size: 35px;
-	letter-spacing: -2px;
-	text-rendering: optimizelegibility;
-	color: #4c7a9f;
-	/*Overwrite default h1 margin so navab fits*/
-/*	margin-bottom: 0px;
-}
-
-#uofcpic {
-	margin-left: 20px;
-	margin-top: 22px;
-}
-*/
-
 /* HOME PAGE */
 
 /* Headline styles */
@@ -82,10 +54,10 @@ p {
 
 .headline p {
 	color: rgb(189, 195, 199);
-	font-size: 40px; 
+	font-size: 50px; 
 	font-weight: 400;
 	font-family: 'Lato', sans-serif;
-	line-height: 40px; 
+	line-height: 60px; 
 	letter-spacing: -2px;
 	margin: 0;
 	text-align: center;
@@ -93,6 +65,10 @@ p {
 
 #logo {
 	margin-bottom: 40px;
+}
+
+#slogan {
+	font-size: 35px;
 }
 
 /* Adjust headline for small screens */
@@ -143,7 +119,7 @@ p {
 }
 
 /* Adapt people pics for front page */
-#fellows .span2 {
+.people-spacing .span2 {
 	margin-bottom: 30px;
 	margin-right: 50px;
 	height: 250px;
