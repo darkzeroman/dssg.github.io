@@ -35,8 +35,17 @@ p {
 	margin-bottom: 30px;
 }
 
-/* HOME PAGE */
+/* NAVBAR */
 
+/* Make navbar logo small so navbar fits on one line on phones */
+@media (max-width: 480px) {
+	#nav-logo {
+		margin-top: 7px;
+		font-size: 18px;
+	}
+}
+
+/* HOME PAGE */
 /* Headline styles */
 
 #splash {
