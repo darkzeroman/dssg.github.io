@@ -132,7 +132,6 @@ p {
 .people .span2 {
 	height: 350px;
 	width: 200px;
-	max-width: 100%;
 	display: block;
 	margin-left: 40px;
 	margin-bottom: 5px;
@@ -143,6 +142,11 @@ p {
 		margin-left: auto;
 		margin-right: auto;
 	}
+}
+
+/* Creates 3 people rows for advisors and staff on home and people pages */
+.people .span4 {
+	margin-bottom: 60px;
 }
 
 .people img {
@@ -190,12 +194,6 @@ p {
 .people .icons a:hover {
 	color: rgb(26, 188, 156);
 }
-
-/* Hacky way to space out the advisors */
-#advisors .span2 {
-	margin-left: 150px;
-}
-
 
 /* POST */
 .post-title {
