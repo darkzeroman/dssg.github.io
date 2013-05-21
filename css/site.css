@@ -10,7 +10,7 @@ body {
 
 /* Space out each section on home and people pages */
 .section {
-	margin-top: 60px;
+	margin-top: 50px;
 }
 
 /* Make <h1> page headings stick out */
@@ -37,7 +37,7 @@ p {
 	/*background-image:url(/img/shoreline.png); */
 	/*background-repeat:no-repeat;*/
 	/*background-attachment: fixed;*/
-	padding-bottom: 120px;
+	/*padding-bottom: 120px;*/
 }
 
 .headline {
@@ -65,6 +65,10 @@ p {
 
 #logo {
 	margin-bottom: 40px;
+}
+
+#uofc {
+	margin: 50px 0 50px 0;
 }
 
 #slogan {
@@ -96,22 +100,30 @@ p {
 
 /*Line up partner logos*/
 #partners .span2 {
-	width: 180px;
-	height: 67px;
-	margin-left: 40px;
-	margin-bottom: 40px;
+	width: 170px;
+	height: 80px;
+	margin: 60px 0 50px 60px;
 	display: block;
 }
 #partners img {
-	vertical-align: middle;
+	vertical-align: bottom;
+}
+
+#uofc {
+	margin-top: 10px;
 }
 
 #ci {
-	margin-top: -30px; 
+	margin-top: -8px; 
 }
 
 #urbanccd {
-	margin-top: -12px;
+	margin-top: 0px;
+}
+
+
+#harris {
+	margin-top: 15px;
 }
 
 #argonne {
