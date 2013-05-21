@@ -10,11 +10,11 @@ body {
 
 /* Space out each section on home and people pages */
 .section {
-	margin-top: 70px;
+	margin-top: 60px;
 }
 
 /* Make <h1> page headings stick out */
-.section-title {
+.page-title {
 	font-size: 50px;
 	font-weight: bold;
 	margin: 50px 0;
@@ -216,13 +216,18 @@ p {
 }
 
 /* FOOTER */
-footer {
-	background-color: rgb(247, 248, 248);	
-	padding-top: 20px; 
-	padding-bottom: 100px;
+
+#footer h6 {
+	text-align: center;
+	margin-bottom: 50px;
 }
 
-footer i {
-	vertical-align: middle;
+#footer i {
+	font-size: 120px;
+	display: block;
+	height: 130px;
+	width: 130px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
