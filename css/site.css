@@ -20,9 +20,16 @@ body {
 	margin: 50px 0;
 }
 
+p {
+	font-size: 20px;
+	line-height: 32px;
+	color: rgb(73, 78, 85);
+	font-family: 'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
+	margin-bottom: 30px;
+}
 
 /* NAVBAR */
-.masthead {
+/*.masthead {
 	padding: 20px 0;
 	background-color: rgb(247, 248, 248);	
 }
@@ -40,14 +47,14 @@ body {
 	text-rendering: optimizelegibility;
 	color: #4c7a9f;
 	/*Overwrite default h1 margin so navab fits*/
-	margin-bottom: 0px;
+/*	margin-bottom: 0px;
 }
 
 #uofcpic {
 	margin-left: 20px;
 	margin-top: 22px;
 }
-
+*/
 
 /* HOME PAGE */
 
@@ -55,16 +62,14 @@ body {
 
 #splash {
 	/*background-color: black;	*/
-	background-image:url(/img/shoreline.png); 
-	background-repeat:no-repeat;
-	background-attachment: fixed;
-	margin: 0;
-	padding-top: 120px; 
+	/*background-image:url(/img/shoreline.png); */
+	/*background-repeat:no-repeat;*/
+	/*background-attachment: fixed;*/
 	padding-bottom: 120px;
 }
 
 .headline {
-	font-size: 75px;
+	font-size: 90px;
 	font-weight: 900;
 	letter-spacing: -2px;
 	line-height: 80px; 
@@ -72,17 +77,22 @@ body {
 	padding: 0 10px;
 	/*Overwrite default h1 margin so page fits*/
 	margin-bottom: 0px;
-	color: #4693d1;
+	color: rgb(52, 73, 94);
 }
 
 .headline p {
-	color: rgb(247, 248, 248);
+	color: rgb(189, 195, 199);
 	font-size: 40px; 
 	font-weight: 400;
+	font-family: 'Lato', sans-serif;
 	line-height: 40px; 
 	letter-spacing: -2px;
 	margin: 0;
 	text-align: center;
+}
+
+#logo {
+	margin-bottom: 40px;
 }
 
 /* Adjust headline for small screens */
@@ -168,21 +178,28 @@ body {
 	margin-right: auto;
 }
 
-.people h4 {
-	text-align: center
-}
-
 .people p {
 	text-align: center;
 	font-size: 15px;
 	margin: 0px;
 }
 
+.people h6 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'ff-tisa-web-pro', Georgia, Cambria, 'Times New Roman', Times, serif;
+	color: rgb(73, 78, 85);
+	line-height: 20px;
+	margin-top: 20px;
+}
+
 .people .icons {
-	width: 45px;
+	width: 55px;
 	height: 10px;
 	display: block;
 	margin: 5px auto;
+	font-size: 25px;
 }
 
 .people .icons a {
@@ -195,7 +212,7 @@ body {
 }
 
 .people .icons a:hover {
-	color: rgb(73, 78, 85);
+	color: rgb(26, 188, 156);
 }
 
 /* Hacky way to space out the advisors */
@@ -232,3 +249,4 @@ footer {
 footer i {
 	vertical-align: middle;
 }
+

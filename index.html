@@ -2,23 +2,26 @@
 layout: default
 ---
 
-<div id="splash" class="section" data-stellar-background-ratio="0">
+<div id="splash" class="section">
+  <h1 class="headline">
+    <img id="logo" src="img/logo.png">
+    <p>The Eric & Wendy Schmidt</p>
+     Data Science for Social Good
+    <p>Summer Fellowship 2013</p>
+  </h1>
+</div>
+
+<div class="dialog dialog-success">
   <div class="container">
-            <h1 class="headline">
-            <p>The Eric & Wendy Schmidt</p>
-            Data Science for Social Good
-            <p>Summer Fellowship 2013</p>
-          </h1>
-  </div>
+  <h2 class="lead">
+    We’re training data scientists to tackle the problems that really matter.
+  </h2>
+</div>
 </div>
 
 <div class="container">
-
-  <div class="row section">
+  <div class="row">
     <div class="offset2 span8">
-      <h2>
-        We’re training data scientists to tackle the problems that really matter.
-      </h2>
       <br><br>
       <p>
         Data Science for Social Good is a University of Chicago summer fellowship program for aspiring data scientists to work on data mining, machine learning, big data, data science projects with social impact.
@@ -29,18 +32,12 @@ layout: default
       <p>
         For <strong>three months in Chicago</strong> they’ll apply their coding and analytics skills, collaborate in a fast-paced atmosphere, and learn from mentors in industry, academia, and the Obama campaign.
       </p>
-
-      <a href="/people/" class="button-link">
-        <h3>
-          Meet our Fellows →
-        </h3>
-      </a>
     </div>
   </div>
 
   <div id="partners" class="row section">
       <hr>
-      <h2>Our Partners</h2>
+      <h3>Our Partners</h3>
       <br>
       <br>
       <div class="span2">
@@ -62,31 +59,31 @@ layout: default
 
   <div id="fellows" class="row section">
     <hr>
-    <h2>Our Fellows</h2>
+    <h3>Our Fellows</h3>
     <p>We're bringing thirty six aspiring data scientists from across the country to Chicago. They're graduate and undergraduate students from quantitative and computational fields - from computer science to statistics to public policy.</p> 
-    <p>From June to August, they'll work in small teams on an analytics project for a nonprofit, local government, or federal agency. Fellows will explore dozens of datasets from the worlds of energy, medicine, online education, public transit, and more. They'll analyze them to discover useful insights. And they'll learn from decision-makers on the front lines of public policy.</p> 
+    <p>From June to August, they'll work in small teams on an analytics project for a nonprofit, local government, or federal agency. Fellows will explore dozens of datasets, analyze them to discover useful insights, and learn from decision-makers on the front lines of public policy.</p> 
     <br>
     <div class="people">
       <div class="span2">
         <img src="/img/people/cheung.jpg" alt="Kyla Cheung">
-        <h4>Kyla Cheung</h4>
+        <h6>Kyla Cheung</h6>
         <p>Computer Science</p>
         <p>Columbia University</p>
       </div>
       <div class="span2">
         <img src="/img/people/brown.jpg" alt="Christopher Brown">
-        <h4>Christopher Brown</h4>
+        <h6>Christopher Brown</h6>
         <p>Linguistics</p>
         <p>UT Austin</p>
       </div>
       <div class="span2">
         <img src="/img/people/bashyakarla.jpg" alt="Varoon Bashyakarla">
-        <h4>Varoon Bashyakarla</h4>
+        <h6>Varoon Bashyakarla</h6>
         <p>Statistics, Economics</p>
         <p>Yale University</p>
       </div>
       <div class="span3">
-        <a href="/people/" class="button-link">
+        <a href="/people/" class="btn btn-large btn-block btn-danger">
           Meet our Fellows →
         </a>
       </div>
@@ -95,7 +92,7 @@ layout: default
 
   <div id="fellows" class="row section">
       <hr>
-      <h2>Our Mentors</h2>
+      <h3>Our Mentors</h3>
       <p>
         Our mentors are experienced data scientists and researchers from business, academia, and nonprofits. They'll work with fellow teams full-time this summer. They'll help fellows brainstorm projects, apply their coding and quantitative skills, and work with partner organizations. 
       </p>
@@ -103,21 +100,21 @@ layout: default
       <div class="people">
         <div class="span2">
           <img src="/img/people/mader.jpg" alt="Nick Mader">
-          <h4>Nick Mader</h4>
+          <h6>Nick Mader</h6>
           <p>Economist PhD at Chapin Hall</p>
         </div>
         <div class="span2">
           <img src="/img/people/eneva.jpg" alt="Elena Eneva">
-          <h4>Elena Eneva</h4>
+          <h6>Elena Eneva</h6>
           <p>Machine learning expert at Accenture</p>
         </div>
         <div class="span2">
           <img src="/img/people/carlson.jpg" alt="Virginia Carlson">
-          <h4>Virginia Carlson</h4>
+          <h6>Virginia Carlson</h6>
           <p>Economic policy and stats PhD</p>
         </div>
         <div class="span3">
-          <a href="/people/#mentors" class="button-link">
+          <a href="/people/#mentors" class="btn btn-large btn-block btn-danger">
             Meet our Mentors →
           </a>
         </div>
@@ -126,7 +123,7 @@ layout: default
 
     <div id="partners" class="row section">
         <hr>
-        <h2>The Blog</h2>
+        <h3>The Blog</h3>
         <p>Read our blog to follow the fellowship and learn about our projects.
         {% for post in site.posts %}
         <br>
