@@ -23,7 +23,7 @@ body {
 /* Adjust the top margin when fixed navbar is deactivated and navbar menu is displayed */
 @media (max-width: 980px) {
 	.page-title {
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 }
 
