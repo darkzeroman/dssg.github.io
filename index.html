@@ -24,7 +24,7 @@ layout: default
     <div class="offset2 span8">
       <br><br>
       <p>
-        Data Science for Social Good is a University of Chicago summer fellowship program for aspiring data scientists to work on data mining, machine learning, big data, data science projects with social impact.
+        Data Science for Social Good is a <a href="http://www.uchicago.edu/">University of Chicago</a> summer fellowship program for aspiring data scientists to work on data mining, machine learning, big data, data science projects with social impact.
       </p>
       <p>
         Working closely with governments and nonprofits, fellows will take on <strong>real-world problems</strong> in education, health, energy, transportation, and more.
@@ -36,8 +36,8 @@ layout: default
   </div>
 
   <div id="partners" class="row section">
-      <hr>
       <h3>Our Partners</h3>
+      <hr>
       <br>
       <br>
       <div class="span2">
@@ -58,8 +58,8 @@ layout: default
   </div>
 
   <div class="row section people-spacing">
-    <hr>
     <h3>Our Fellows</h3>
+    <hr>
     <p>We're bringing thirty six aspiring data scientists from across the country to Chicago. They're graduate and undergraduate students from quantitative and computational fields - from computer science to statistics to public policy.</p> 
     <p>From June to August, they'll work in small teams on an analytics project for a nonprofit, local government, or federal agency. Fellows will explore dozens of datasets, analyze them to discover useful insights, and learn from decision-makers on the front lines of public policy.</p> 
     <br>
@@ -82,7 +82,7 @@ layout: default
         <p>Statistics, Economics</p>
         <p>Yale University</p>
       </div>
-      <div class="span2">
+      <div class="span3">
         <a href="/people/" class="btn btn-huge btn-block btn-danger">
           Meet our Fellows →
         </a>
@@ -91,8 +91,8 @@ layout: default
   </div>
 
   <div class="row section people-spacing">
-      <hr>
       <h3>Our Mentors</h3>
+      <hr>
       <p>
         Our mentors are experienced data scientists and researchers from business, academia, and nonprofits. They'll work with fellow teams full-time this summer. They'll help fellows brainstorm projects, apply their coding and quantitative skills, and work with partner organizations. 
       </p>
@@ -113,7 +113,7 @@ layout: default
           <h6>Virginia Carlson</h6>
           <p>Economic policy and stats PhD</p>
         </div>
-        <div class="span2">
+        <div class="span3">
           <a href="/people/#mentors" class="btn btn-huge btn-block btn-success">
             Meet our Mentors →
           </a>
@@ -122,8 +122,8 @@ layout: default
     </div>
 
      <div class="section row">
-      <hr>
       <h3>Staff</h3>
+      <hr>
       <p>
         The fellowship is lead by <a href="http://www.rayidghani.com">Rayid Ghani</a>, former chief data scientist of the 2012 Obama campaign, and organized by an interdisciplinary team from the <a href="http://www.ci.uchicago.edu/">Computation Institute</a>, a joint initiative between the University of Chicago and Argonne National Laboratory. 
       </p>
@@ -186,13 +186,13 @@ layout: default
     </div>
 
     <div id="partners" class="row section">
+        <h3>Blog</h3>
         <hr>
-        <h3>The Blog</h3>
         <p>Read our blog to follow the fellowship and learn about our projects.
         {% for post in site.posts %}
         <br>
         <article>
-          <h1><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+          <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
           <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
         </article>
         {% endfor %}
@@ -201,6 +201,6 @@ layout: default
 
 </div>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/jquery.stellar.min.js"></script>
-<script type="text/javascript" src="/js/site.js"></script>
+<!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="/js/jquery.stellar.min.js"></script> -->
+<!-- <script type="text/javascript" src="/js/site.js"></script> -->

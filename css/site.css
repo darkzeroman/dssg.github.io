@@ -17,7 +17,7 @@ body {
 .page-title {
 	font-size: 50px;
 	font-weight: bold;
-	margin: 50px 0;
+	margin: 50px 0 30px 0;
 }
 
 p {
@@ -199,11 +199,9 @@ p {
 
 /* POST */
 .post-title {
-	font-size: 50px;
-	font-weight: bold;
-	margin-top: 50px;
-	margin-bottom: 30px;
+	text-align: center;
 }
+
 .post-date-author {
 	text-align: center;
 	font-style: italic;
@@ -213,6 +211,14 @@ p {
 	margin: 3em auto; 
 	display: block; 
 	width: 100%;
+}
+
+/* CONTACT PAGE */
+#contact img {
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: 30px auto;
 }
 
 /* FOOTER */
