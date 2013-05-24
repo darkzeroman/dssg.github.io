@@ -35,6 +35,17 @@ p {
 	margin-bottom: 30px;
 }
 
+
+/* Pretty text highlighting */
+::selection {
+  background: #494e55;
+  color:#fff;
+  }
+::-moz-selection {
+  background: #494e55;
+  color:#fff;
+}
+
 /* NAVBAR */
 
 /* Make navbar logo small so navbar fits on one line on phones */
