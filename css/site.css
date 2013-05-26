@@ -214,7 +214,6 @@ p {
 }
 
 .people .span4 p {
-	width: 300px;
 	margin: 0 auto;
 }
 
@@ -229,7 +228,7 @@ p {
 }
 
 .people .icons {
-	width: 55px;
+	width: 60px;
 	height: 10px;
 	display: block;
 	margin: 5px auto;
