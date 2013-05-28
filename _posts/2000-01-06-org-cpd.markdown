@@ -1,0 +1,13 @@
+---
+type: org
+issue: Public Safety
+org: Chicago Police Department, Crime Lab
+img: cpd.jpg
+website: https://portal.chicagopolice.org
+project: Predictive analytics of crime
+---
+Chicago’s [Police Department](https://portal.chicagopolice.org) helped pioneer predictive analytics in policing during the early 2000’s. Now they are looking to take data-driven police work to a new level. 
+
+Fellows will work with the CPD and the University of Chicago’s [Crime Lab](http://crimelab.uchicago.edu) to analyze the agency’s extensive [crime data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2) and develop new algorithms that can detect emerging crime problems. At the end of the program, the CPD should have improved daily crime forecasts they can use to deploy police officers more effectively across the city. 
+
+Crime Lab works with local governments to experiment with new crime-fighting programs and measure whether they work.

@@ -1,0 +1,11 @@
+---
+type: org
+issue: Financial Regulation
+org: Consumer Financial Protection Bureau
+img: cfpb.png
+website: http://www.consumerfinance.gov/
+project: Smarter regulation of lenders and credit bureaus
+---
+The [Consumer Financial Protection Bureau](http://www.consumerfinance.gov/) is a new federal agency created by President Obama’s Wall Street overhaul to battle exploitative financial practices. CFPB’s mission is to regulate consumer financial products including mortgages and credit cards, and to ensure fair treatment of consumers by the financial industry. 
+
+Fellows will analyze mortgage data to point CFPB’s inspectors to financial institutions that might be engaging in unfair lending practices. They’ll also crunch massive amounts of data to detect whether credit rating agencies are calculating consumers’ credit scores inaccurately.

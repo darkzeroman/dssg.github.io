@@ -1,0 +1,14 @@
+---
+type: org
+org: University of Chicago
+img: uofc_project.png
+website: http://www.uchicago.edu/
+project: Neighborhood Vitality Index
+---
+Cities are now swimming in data. [311 service requests](http://servicetracker.cityofchicago.org/), [Twitter](http://foodborne.smartchicagoapps.org/), Google street view, [open government data](https://data.cityofchicago.org/), Census surveys, and even [LIDAR](http://cityscan.com/) offer an unprecedented look into the problems faced by our cities. 
+
+Sometimes, a single data element tells a story on its own, answering a specific question about potholes, lead exposure, or language proficiency. More often, we need multiple datasets to grasp the long-term trends affecting our neighborhoods - community cohesion and unrest, underinvestment in child health, and infrastructure decay. 
+
+Each of these data sources has a different size, scope, and availability. We’ll combine the strengths of each to build new barometers of neighborhood health across Chicago - and hopefully expand to other parts of the country.
+
+The goal is to give city policymakers a view of local trends, help community organizations respond more proactively, and make researchers more effective and efficient.

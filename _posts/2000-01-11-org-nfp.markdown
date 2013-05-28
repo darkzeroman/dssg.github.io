@@ -1,0 +1,15 @@
+---
+type: org
+issue: Health
+org: Nurse-Family Partnership
+img: nfp.jpg
+website: http://www.nursefamilypartnership.org
+project: Tracking the impact of early childhood health programs
+---
+When a young woman becomes pregnant before she’s ready, the risk factors for her family escalate. Too often, the result is poverty, instability, and despair. 
+
+[Nurse-Family Partnership](www.nursefamilypartnership.org) intervenes by pairing trained nurses with low-income families. Expecting mothers receive nurse visits from pregnancy until the baby is two years old. The result: more successful pregnancies, more stable families, and healthier kids that do better in school and life.
+
+NFP’s approach is based on successful randomized controlled trials, and they’ve been around for many years.  But as federal health care reform invests millions of dollars into these kinds of programs, they’re being asked to quantify their social and economic impact.  
+
+We will measure their effectiveness by analyzing five years of data about NFP’s interventions and family outcomes.

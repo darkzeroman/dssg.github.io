@@ -248,6 +248,19 @@ p {
 	color: rgb(26, 188, 156);
 }
 
+/* PROJECT page */
+
+.project-title {
+	margin-bottom: 40px;
+}
+
+#projects img {
+	margin-bottom: 30px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 /* POST */
 .post-title {
 	text-align: center;

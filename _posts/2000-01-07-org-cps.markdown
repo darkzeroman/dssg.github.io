@@ -1,0 +1,15 @@
+---
+type: org
+issue: Education
+org: Chicago Public Schools, After School Matters, YMCA of Metro Chicago, Chapin Hall
+img: [cps.jpg, asm.jpg, ymca.jpg, chapin.jpg]
+website: http://www.chapinhall.org
+project: Educational impacts of after-school programs
+---
+Only half of Chicago’s kids will graduate from high school. Dozens of after-school programs exist to enrich students' lives and help them do better in school. But how well are these programs working?
+
+We’ll analyze student data from the Chicago Public Schools - the nation’s third largest school system - and after-school programs from the [Metro Chicago YMCA](http://www.ymcachicago.org/) and [After School Matters](http://www.afterschoolmatters.org) to begin answering that question.
+
+The goal is to empower after-school program providers to understand their kids’ academic trajectories, whether they’re reaching the right students, and whether their programs are helping students do better in school. Our findings could help after-school nonprofits target their student outreach and scale successful programs across Chicago and to new cities.
+
+This research will be conducted in partnership with [Chapin Hall](http://www.chapinhall.org), a policy research center at the University of Chicago that studies youth and family programs.
