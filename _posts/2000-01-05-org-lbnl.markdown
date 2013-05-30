@@ -1,8 +1,8 @@
 ---
 type: org
 issue: Energy
-org: Lawrence Berkeley National Laboratory
-img: lbnl.png
+org: State of Illinois, Lawrence Berkeley National Laboratory
+img: [il.jpg, lbnl.png]
 website: http://www.lbl.gov/
 project: Predicting building energy savings 
 ---
