@@ -2,12 +2,12 @@
 type: org
 issue: Philanthropy
 org: Case Foundation
-img: case.png
+img: case.jpg
 website: http://www.casefoundation.org
-project: The Giving Graph: grassroots philanthropy meets social networks
+project: "The Giving Graph - grassroots philanthropy meets social networks"
 ---
 Every time you log on to Facebook, Spotify, or Amazon, these tech companies are building a network of who you know and what you like. They use this “social graph” to connect you to new people and products. Retailers and marketers are beginning to use it to target ads. What if the social sector could use this graph to connect people to the causes they are passionate about?
  
-The Case Foundation’s [Giving Graph](http://thegivinggraph.org/) would be a new layer on the websites you already use that would make giving, volunteering, and advocating for causes a seamless part of your online social life. The idea is to give organizations working to create good the same edge as companies trying to sell you more stuff. 
+The Case Foundation’s [Giving Graph](http://thegivinggraph.org/) would be a new layer on the websites you already use that would make giving, volunteering, and advocating for causes a seamless part of your online social life. The idea is to give organizations working for good the same edge as companies trying to sell you stuff. 
 
 To test this idea, we’re building a proof of concept system for the [Case Foundation](http://www.casefoundation.org), a philanthropy that promotes everyday giving and civic engagement.

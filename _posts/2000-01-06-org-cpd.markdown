@@ -2,7 +2,7 @@
 type: org
 issue: Public Safety
 org: Chicago Police Department, Crime Lab
-img: cpd.jpg
+img: [cpd.jpg, crimelab.jpg]
 website: https://portal.chicagopolice.org
 project: Predictive analytics of crime
 ---
