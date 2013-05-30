@@ -1,5 +1,5 @@
 ---
-published: true
+published: "true"
 layout: post
 title: The Fellowship and the Fellows
 author: "Juan-Pablo Velez, Matt Gee, Rayid Ghani"
@@ -38,7 +38,7 @@ Over the next three months, they’ll apply their coding, machine learning, and 
 The program is led by a strong interdisciplinary team from the Computation institute and the Harris School of Public Policy at the University of Chicago.
 
 #### The fellows
-Google Chairman Eric Schmidt and Rayid hatched the idea in March, and we put out a call for applications immediately. 
+Google Chairman Eric Schmidt and Rayid Ghani hatched the idea in March, and we put out a call for applications immediately. 
 
 The response was overwelming: <strong>550</strong> aspiring data scientists applied from all over the world.
 
@@ -48,7 +48,7 @@ The response was overwelming: <strong>550</strong> aspiring data scientists appl
 
 We read every application and interviewed nearly a hundred people. In the end, we picked <strong>36</strong> amazing fellows. (That's 6.545% of the applicant pool, for you bean counters.)
 
-They'll be flying to Chicago from all across the country at the beginning of June and will spend the next three months with us.. 
+They'll be flying to Chicago from all across the country at the beginning of June and will spend the next three months with us.
 
 <div class="row">
 	<div class="span4 offset2">
