@@ -133,13 +133,14 @@ p {
 	margin-bottom: 40px;
 }
 
-/*Line up partner logos*/
+/* Fellowship patners. Line up partner logos*/
 #partners .span2 {
 	width: 170px;
 	height: 80px;
 	margin: 70px 0 50px 70px;
 	display: block;
 }
+
 #partners img {
 	vertical-align: bottom;
 }
@@ -163,6 +164,16 @@ p {
 
 #argonne {
 	margin-top: -18px;
+}
+
+
+/* Project partners */
+#partners .span3 {
+	margin: 30px 0 30px 30px;
+}
+
+#aws {
+	margin-top: -25px;
 }
 
 /* Adapt people pics for front page */
