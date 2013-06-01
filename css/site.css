@@ -165,6 +165,15 @@ p {
 	margin-top: -18px;
 }
 
+/* Project partners */
+#partners .span3 {
+	margin: 30px 0 30px 30px;
+}
+
+#aws {
+	margin-top: -25px;
+}
+
 /* Adapt people pics for front page */
 .people-spacing .span2 {
 	margin-bottom: 30px;
