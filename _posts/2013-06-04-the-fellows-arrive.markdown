@@ -6,7 +6,7 @@ author: Juan-Pablo Velez
 
 ---
 
-![DSSG fellows](/img/posts/panorama.png)
+![DSSG fellows](/img/posts/panorama_small.png)
 
 They're here! 
 
