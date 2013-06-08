@@ -1,5 +1,5 @@
 ---
-published: "false"
+published: true
 layout: post
 title: The Fellows Arrive
 author: Juan-Pablo Velez
