@@ -3,10 +3,9 @@ published: true
 layout: post
 title: The Fellows Arrive
 author: Juan-Pablo Velez
+pic: rayid.jpg
 
 ---
-
-![DSSG fellows](/img/posts/panorama_small.png)
 
 They're here! 
 
@@ -16,7 +15,7 @@ We spent our first day getting to know the program, and each other.
 
 Program director Rayid Ghani kicked things off by welcoming mentors, staff, and fellows.
 
-![Rayid Ghani welcomes fellows and staff.](/img/posts/rayid.jpg)
+<img src="/img/posts/panorama.jpg">
 
 "Three months ago, we didn't know we were doing this. Lots of people did a ton of work to get you here," Ghani said. "But this is now your program - it's up to you to make this work." 
 
@@ -34,7 +33,7 @@ Twenty eight of our thirty six fellows were in attendance, some coming from as f
 
 After a round of introductions, we played a bit of opinion spectrometer.
 
-![Fellows played opinion spectrometer as an ice breaker.](/img/posts/spectrometer.jpg)
+<img src="/img/posts/spectrometer.jpg" alt="Fellows played opinion spectrometer as an ice breaker.">
 
 The premise is dead simple: a controversial statement is thrown out, and people place themselves along a spectrum according to whether they agree or disagree.
 

@@ -258,8 +258,42 @@ p {
 }
 
 /* POST */
+
+#post-pic {
+	background-repeat: no-repeat;
+	background-position: left;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	height: 500px;
+}
+
+/*Adds space fills space behind navbar so post pics or titles don't fall behind it.*/
+#navbar-padding {
+	padding-top: 50px;
+}
+
+@media (max-width: 980px) {
+	#post-pic {
+		margin-top: -20px;
+	}
+	#navbar-padding {
+		padding-top: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	#post-pic {
+		height: 200px;
+	}
+}
+
 .post-title {
 	text-align: center;
+	margin-top: 30px;
 }
 
 .post-date-author {
@@ -267,10 +301,66 @@ p {
 	font-style: italic;
 }
 
-.center {
-	margin: 3em auto; 
-	display: block; 
+#post p {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*Assigning narrower width to p elements so pics can be wider than text screws */
+/*up h4, li, and blockquote elements. Making them the same narrow width - and the */
+/*p elements inside them 100% - fixes this.*/
+
+
+#post h4 {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#post li {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#post li p {
 	width: 100%;
+}
+
+#post blockquote {
+	width: 65%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#post blockquote p {
+	width: 100%;
+}
+
+/*Make all elements 100% when screen gets small enough*/
+
+@media (max-width: 767px) {
+	#post p {
+	width: 100%;
+	}
+	#post h4 {
+	width: 100%;
+	}
+	#post blockquote {
+	width: 100%;
+	}
+	#post li {
+	width: 100%;
+	}
+}
+
+/*Make post images full fize, give them comfy bottom margin to separate from text*/
+#post img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
 }
 
 /* CONTACT PAGE */

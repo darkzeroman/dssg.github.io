@@ -3,6 +3,7 @@ published: true
 layout: post
 title: "Training Data Scientists: Tools"
 author: Juan-Pablo Velez
+pic: hauser.jpg
 
 ---
 
@@ -28,18 +29,16 @@ This presented us with two challenges:
 
 - To bridge the diversity of fellow backgrounds, we needed a common toolbox.
 
-![Software Carpenty logo](/img/posts/software-carpentry.png)
-
 So we invited our friends from [Software Carpentry](http://software-carpentry.org) - a nonprofit which teaches scientists to code - to run a tech bootcamp for our fellows.
 
+![Software Carpenty logo](/img/posts/software-carpentry.png)
+
 #### Collaboration tools
-To get fellows working together, instructor Elliott Hauser introduced them to [git](http://git-scm.com/) and [github](http://www.github.com/dssg), tools which make it easy to share code and collaborate. 
+To get fellows working together, instructor Elliott Hauser (picture above) introduced them to [git](http://git-scm.com/) and [github](http://www.github.com/dssg), tools which make it easy to share code and collaborate. Though popular in the world of software engineering, few fellows had used them before.
 
 ![Git and github survey chart](/img/posts/git-survey.png)
 
-Though popular in the world of software engineering, few fellows had used them before.
-
-And he got fellows [pair programming](http://www.codinghorror.com/blog/2007/11/pair-programming-vs-code-reviews.html), where two people code together on one computer.
+Eliott also got fellows [pair programming](http://www.codinghorror.com/blog/2007/11/pair-programming-vs-code-reviews.html), where two people code together on one computer.
 
 "Individually, our knowledge is like swiss cheese. But collectively, we know all these different things we can share,"
 says fellow Syler Whorton. "It's a lot more beneficial than taking individual classes."
@@ -47,7 +46,7 @@ says fellow Syler Whorton. "It's a lot more beneficial than taking individual cl
 #### Common toolkit 
 Every computational or quantitative field has its favorite tools. Our fellows are familiar with dozens of technologies:
 
-![Technology survey chart](/img/posts/language-survey.png)
+<img src="/img/posts/language-survey.png" alt="Technology survey">
 
 To give everyone a lingua franca, we did workshops on python and R.
 
@@ -61,7 +60,7 @@ We focused on using python for data analysis. Although most fellows were familia
 
  ...not all of them had used [numpy](http://www.numpy.org/) and [pandas](http://pandas.pydata.org/), powerful libraries for scientific computing.
 
-![Python survey chart](/img/posts/python-tools-survey.png)
+<img src="/img/posts/python-tools-survey.png" alt="Python tools survey">
 
 
 Fellows were also exposed to [ggplot2](http://ggplot2.org/), a library for creating beautiful data graphics.

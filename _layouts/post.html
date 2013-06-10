@@ -1,16 +1,28 @@
 ---
 layout: default
 ---
+<div id="navbar-padding">
 
-<article class="container">
-	<!-- Post title and date -->
+<!-- Post pic -->
+<!-- Check if post has pic, display it in parallax box if so. -->
+{% if page.pic %}
+<div id="post-pic" style="background-image:url(/img/posts/{{ page.pic }});">
+</div>
+{% endif %}
+
+<article id="post" class="container">
 	<div class="row">
-		<div class="offset2 span8">
+		<!-- Post title and date -->
+		<div class="span8 offset2">
 			<div class='page-header'>
-			<h1 class="post-title page-title"><a href="{{ page.url }}">{{ page.title }}</a></h1> 
-		    <p class="post-date-author">{{ page.date | date_to_string }} - {{ page.author }}</p>
+				<h1 class="post-title page-title">
+					<a href="{{ page.url }}">{{ page.title }}</a>
+				</h1> 
+		    	<p class="post-date-author">{{ page.date | date_to_string }} - {{ page.author }}</p>
+			</div>
 		</div>
-		    <!-- Post content -->
+		<!-- Post content -->
+		<div class="span12">
     		{{ content }}
     	</div>
     </div>
