@@ -2,9 +2,8 @@
 published: true
 layout: post
 title: "Training Data Scientists: Tools"
-author: Juan-Pablo Velez
+author: "Juan-Pablo Velez"
 pic: hauser.jpg
-
 ---
 
 Our goals for the fellowship are to train more data scientists and to get them working on [problems that really matter](/2013/05/21/the-fellowship-and-the-fellows.html). Lots of folks have been asking about how we're doing that.
@@ -41,7 +40,7 @@ To get fellows working together, instructor Elliott Hauser (picture above) intro
 Eliott also got fellows [pair programming](http://www.codinghorror.com/blog/2007/11/pair-programming-vs-code-reviews.html), where two people code together on one computer.
 
 "Individually, our knowledge is like swiss cheese. But collectively, we know all these different things we can share,"
-says fellow Syler Whorton. "It's a lot more beneficial than taking individual classes."
+says fellow Skyler Whorton. "It's a lot more beneficial than taking individual classes."
 
 #### Common toolkit 
 Every computational or quantitative field has its favorite tools. Our fellows are familiar with dozens of technologies:
@@ -72,6 +71,3 @@ Instead of tailoring the sessions to different ability levels, we experimented w
 "We all come from so many different backgrounds and levels of knowledge that sometimes it felt like not everyone was getting same amount out of it," says fellow Breanna Miller. "But I think trying to lay the groundwork so we're all on the same page was really helpful."
 
 Of course, nobody learns a new tool in a day. The point was to give fellows a whirlwind overview of the tools available to them, so they can go deep on the ones they find useful over the course of the summer.
-
-
-
