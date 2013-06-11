@@ -57,7 +57,6 @@ They'll be flying to Chicago from all across the country at the beginning of Jun
     	</a>
 	</div>
 </div>
-<br><br>
 
 
 The fellows are a mix of grad students and undergrads.
