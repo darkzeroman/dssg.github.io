@@ -2,8 +2,8 @@
 published: true
 layout: post
 title: "Welcome to Chicago: Who are you, and what are you looking for?"
-author: "Skyler Whorton"
-pic: welcome-sign.jpg
+author: Skyler Whorton
+pic: "welcome-sign.jpg"
 ---
 
 This was the question asked of us by Paul O’Connor last Friday, at the first of our weekly lunch speaker series. O’Connor is an urban strategist at [Skidmore, Owings & Merrill](https://www.som.com/) who formerly headed a business development nonprofit called [World Business Chicago](http://www.worldbusinesschicago.com/). On top of that, he’s a native Chicagoan as well as a local history buff, all of which uniquely qualify him to ask us to reflect on the city’s history before we try to change it.
@@ -34,4 +34,8 @@ We are after all a lively group fully capable of lingering in the office for hou
 
 Who am I? One eager and idealistic cog in a truly unprecedented meeting of minds. What am I looking for? To offer everything I can to help it succeed.
 
+<<<<<<< HEAD
 *Skyler Whorton is a Data Science for Social Good fellow from Worcester Polytechnic Institute. This post originally ran at Whorton's blog, [skyinthecloud](http://skyinthecloud.tumblr.com/)*
+=======
+*Skyler Whorton is a Data Science for Social Good fellow from Worcester Polytechnic Institute. This post originally ran at Whorton's blog, [skyinthecloud](http://skyinthecloud.tumblr.com/).*
+>>>>>>> ea7916b3a9eda95babc5923e332123dcf08cafa2

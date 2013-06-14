@@ -133,13 +133,14 @@ p {
 	margin-bottom: 40px;
 }
 
-/*Line up partner logos*/
+/* Fellowship patners. Line up partner logos*/
 #partners .span2 {
 	width: 170px;
 	height: 80px;
 	margin: 70px 0 50px 70px;
 	display: block;
 }
+
 #partners img {
 	vertical-align: bottom;
 }
@@ -164,6 +165,7 @@ p {
 #argonne {
 	margin-top: -18px;
 }
+
 
 /* Project partners */
 #partners .span3 {
@@ -255,6 +257,19 @@ p {
 
 .people .icons a:hover {
 	color: rgb(26, 188, 156);
+}
+
+/* PROJECT page */
+
+.project-title {
+	margin-bottom: 40px;
+}
+
+#projects img {
+	margin-bottom: 30px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 /* POST */

@@ -71,6 +71,11 @@ layout: default
           <img id="aws" src="/img/partners/aws.png">
         </a>
       </div>
+      <div class="span3">
+        <a href="http://qcri.org.qa/">
+          <img id="aws" src="/img/partners/qcri.png">
+        </a>
+      </div>
   </div>
 
   <div class="row section people-spacing">
@@ -206,10 +211,12 @@ layout: default
         <hr>
         <p>Read our blog to follow the fellowship and learn about our projects.
         {% for post in site.posts %}
-        <article>
-          <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
-          <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
-        </article>
+          {% unless post.type == 'org' %}
+            <article>
+              <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
+              <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
+            </article>
+          {% endunless %}
         {% endfor %}
     </div>
   </div>

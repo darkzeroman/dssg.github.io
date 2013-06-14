@@ -17,13 +17,45 @@ layout: default
   <p>
   	We're strong believers in open knowledge and open source. We'll blog extensively about our projects, and make much of our research and code open to everyone.
   </p>
-  <br>
-  <br>
-  <div class="alert alert-success">
-  	<h6>
-  		We're not quite ready to announce our partners and projects. 
-  		<strong>Check back in a few weeks!</strong>
-  	</h6>
+
+  <!-- Iterate through projects and display info -->
+  {% for post in site.posts %}
+    {% if post.type == 'org' %}
+
+      <div id="projects" class="row section">
+
+        <!-- Project issue and name -->
+        {% if post.issue %}
+          <span class="label label-large label-important">{{ post.issue }}</span>
+        {% endif %}
+        <h4 class="project-title">
+          <a href="{{ post.website }}">{{ post.org }}</a> - {{ post.project }}
+        </h4>
+
+        <!-- Partner logos -->
+        <div class="span4">
+            {% for img in post.img %}
+              <a href="{{ post.website[1] }}">            
+              <img src="/img/partners/{{ img }}">
+              </a>
+            {% endfor %}
+        </div>
+
+        <!-- Project description -->
+        <div class="span8">
+          {{ post.content }}
+        </div>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+    <br>
+    <br>
+   <div class="alert alert-success">
+    <h6>
+      We're not quite ready to announce all of our partners and projects. 
+      <strong>Check back for more!</strong>
+    </h6>
   </div>
 
 </div>
