@@ -34,8 +34,6 @@ We are after all a lively group fully capable of lingering in the office for hou
 
 Who am I? One eager and idealistic cog in a truly unprecedented meeting of minds. What am I looking for? To offer everything I can to help it succeed.
 
-<<<<<<< HEAD
-*Skyler Whorton is a Data Science for Social Good fellow from Worcester Polytechnic Institute. This post originally ran at Whorton's blog, [skyinthecloud](http://skyinthecloud.tumblr.com/)*
 =======
+
 *Skyler Whorton is a Data Science for Social Good fellow from Worcester Polytechnic Institute. This post originally ran at Whorton's blog, [skyinthecloud](http://skyinthecloud.tumblr.com/).*
->>>>>>> ea7916b3a9eda95babc5923e332123dcf08cafa2
