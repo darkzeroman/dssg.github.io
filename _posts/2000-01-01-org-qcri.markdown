@@ -1,6 +1,6 @@
 ---
 type: org
-org: Qatar Computation Research Institute
+org: Qatar Computing Research Institute
 img: qcri.png
 website: http://www.qcri.com
 project: Measuring disaster damage with tweets
