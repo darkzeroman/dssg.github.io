@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "The Dark Matter of Public Policy Data"
 author: Nick Mader and Rob Mitchum
