@@ -42,4 +42,4 @@ The goal is to improve care in the city by learning what works and spreading tho
 
 In the next two parts, we’ll talk about some of the statistical methods used to address this problem, and follow the fellows as they visit one of our project partners and chat with workers on the front line of their organization.
 
-*Nick Mader is an economist at [Chapin Hall](http://www.chapinhall.org/) and a Data Science for Social Good mentor. Rob Mitchum is communications manager for the [Computation Institute](http://ci.uchicago.edu).*
+*Nick Mader is an economist at [Chapin Hall](http://www.chapinhall.org/) and a Data Science for Social Good mentor. Rob Mitchum is a science writer for the [Computation Institute](http://ci.uchicago.edu).*
