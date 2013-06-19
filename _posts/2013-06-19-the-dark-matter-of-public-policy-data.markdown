@@ -34,12 +34,12 @@ An effective program that targets kids who are at-risk in ways we can't account 
 
 To avoid these mistakes, we’re training Data Science for Social Good fellows to worry about what the data doesn't show. They are asked to consider how they can combine the insight of data with on-the-ground expertise in their projects. 
 
-This week and next, the fellows are meeting with their partner organizations – either at our downtown space, or, ideally, out in the field – so partners can communicate their needs, priorities and concerns. These interactions are meant to help the fellows understand the data the partners are sharing, but also the significant information that’s missing. By recognizing the gap between the numbers and the real world, the fellows can build the appropriate caveats into their conclusions.
+This week and next, the fellows are meeting with their partner organizations – either at our downtown space, or, ideally, out in the field – so partners can communicate their needs, priorities and concerns. These interactions are meant to help the fellows understand the data the partners are sharing, but also the significant information that’s missing. 
 
-But more important than these statistical methods are the interviews and meetings with the project partners. Drawing from the partners’ expertise in their fields will make our program evaluations more accurate, useful, and considerate of the high stakes involved for these programs and the individuals they serve. 
+Drawing from the partners’ expertise in their fields will make our program evaluations more accurate, useful, and considerate of the high stakes involved for these programs and the individuals they serve. By recognizing the gap between the numbers and the real world, the fellows can build the appropriate caveats into their conclusions.
 
 The goal is to improve care in the city by learning what works and spreading those ideas, rather than just rewarding the good and abandoning the bad. Finding the most accurate path to that goal is as much about understanding the data that’s missing as it is about analyzing the data that’s there.
 
 In the next two parts, we’ll talk about some of the statistical methods used to address this problem, and follow the fellows as they visit one of our project partners and chat with workers on the front line of their organization.
 
-*Nick Mader is an economist at [Chapin Hall](http://www.chapinhall.org/) and a Data Science for Social Good mentor. Rob Mitchum is communications manager for the [Computation Institute](http://ci.uchicago.edu)*
+*Nick Mader is an economist at [Chapin Hall](http://www.chapinhall.org/) and a Data Science for Social Good mentor. Rob Mitchum is communications manager for the [Computation Institute](http://ci.uchicago.edu).*
