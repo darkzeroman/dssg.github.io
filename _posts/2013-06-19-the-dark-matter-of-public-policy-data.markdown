@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: The Dark Matter of Public Policy Data (Part 1)
 author: Nick Mader and Rob Mitchum
@@ -38,14 +38,10 @@ This week and next, the fellows are meeting with their partner organizations –
 
 Drawing from the partners’ expertise in their fields will make our program evaluations more accurate, useful, and considerate of the high stakes involved for these programs and the individuals they serve. By recognizing the gap between the numbers and the real world, the fellows can build the appropriate caveats into their conclusions.
 
-There are also statistical methods for detecting these "dark matter" factors and adjusting the quantitative conclusions accordingly. Econometrics, which often deals with similar data analysis problems, has developed tools including instrumental variable and control function methods to filter out the hidden influence of unobserved factors and reach a more accurate conclusion about an intervention's effectiveness.
-
-An instrumental variable is associated with how a treatment is chosen, but is not associated with factors that play into successful outcomes, allowing a researcher to separate how individuals wind up receiving treatment from studying how they do after receiving it. A control function approach uses instrumental variables to account for what is not observed as a function of what we do observe. 
-
-In our hospital example, patients who travel farther for treatment might be predicted to have more severe disease in general than those who go to the nearest clinic. Even without data on the severity of the cases each hospital receives, these methods can be used to estimate this factor's impact.
+In addition to understanding the qualitative context of the organization, there are also quantiative methods for detecting these "dark matter" factors. Economists use a number of statistical techniques, including instrumental variables and control function methods, to filter out the hidden influence of unobserved factors, and reach more accurate conclusions about an intervention's effectiveness.
 
 The goal is to improve care in the city by learning what works and spreading those ideas, rather than just rewarding the good and abandoning the bad. Finding the most accurate path to that goal is as much about understanding the data that’s missing as it is about analyzing the data that’s there.
 
-In the next two parts, we’ll go more in-depth on some of the statistical methods used to address this problem, and follow the fellows as they visit one of our project partners and chat with workers on the front line of their organization.
+In the next two parts of this series, we’ll go more in-depth into the statistical methods used to address the dark matter problem, the same techniques we'll be using and improving on to evaluate nonprofits on several of our projects. And for the qualitative side, we'll follow the fellows as they visit one of our project partners and chat with workers on the front line of their organization.
 
-*Nick Mader is an economist at [Chapin Hall](http://www.chapinhall.org/) and a Data Science for Social Good mentor. Rob Mitchum is a science writer for the [Computation Institute](http://ci.uchicago.edu).*
+*Nick Mader is an economist at [Chapin Hall](http://www.chapinhall.org/) at the University of Chicago and a Data Science for Social Good mentor. Rob Mitchum is a science writer for the [Computation Institute](http://ci.uchicago.edu).*
