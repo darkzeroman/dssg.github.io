@@ -170,10 +170,31 @@ p {
 /* Project partners */
 #partners .span3 {
 	margin: 30px 0 30px 30px;
+	height: 120px;
 }
 
 #aws {
 	margin-top: -25px;
+}
+
+#qcri {
+	margin-top: -35px;
+}
+
+#landbank {
+	margin-top: -10px;
+}
+
+#ihs {
+	margin-top: 5px;
+}
+
+
+/* Adjust project partner pics for small screens */
+@media (max-width: 480px) {
+	#partners .span3 {
+	width: 280px;
+	}
 }
 
 /* Adapt people pics for front page */
