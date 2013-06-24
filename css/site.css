@@ -353,6 +353,12 @@ p {
 	width: 100%;
 }
 
+#post iframe {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
 /*Make all elements 100% when screen gets small enough*/
 
 @media (max-width: 767px) {

@@ -2,7 +2,7 @@
 type: org
 org: Qatar Computing Research Institute
 img: qcri.png
-website: http://www.qcri.com
+website: ['http://www.qcri.com']
 project: Measuring disaster damage with tweets
 ---
 In our connected world, information about natural disasters and other emergencies often appears on social media faster than on traditional channels. But gleaning useful knowledge from this flood of tweets and status updates is tough. We need better methods to find the needles in this haystack of unstructured text.

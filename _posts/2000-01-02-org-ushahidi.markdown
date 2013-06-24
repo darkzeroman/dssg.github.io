@@ -3,7 +3,7 @@ type: org
 issue: Disaster response
 org: Ushahidi
 img: ushahidi.png
-website: http://www.ushahidi.com
+website: ['http://www.ushahidi.com']
 project: Smarter crowdsourcing for crisis maps
 ---
 During disasters, information can become as scarce as food and electricity. First responders struggle to locate people in need.
