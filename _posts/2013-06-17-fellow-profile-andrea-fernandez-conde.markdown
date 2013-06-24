@@ -3,7 +3,7 @@ published: true
 layout: post
 title: "Fellow profile: Andrea Fernández Conde"
 author: Skyler Whorton
-pic: "andrea.jpg"
+pic: andrea.jpg
 ---
 
 In Mexico, drug cartels are locked in violent rivalries that profoundly affect the entire country and its population. The history of this ongoing struggle is complex and steeped in political controversy, but some believe that careful analysis of the past may help the Mexican government curb the violence.
@@ -46,7 +46,7 @@ Time constraints are her greatest fear for the summer, which is duly noted since
 	<img src="/img/posts/mexico-cartels.png">
 </a>
 
-Fernández research on the Mexican drug cartels with left her with a negative impression about the Mexican government’s willingness to support such work. However, she’s not without hope. “Some of my friends made [data-related projects] work in Mexico,” where, she said, “open government has been forgotten.” 
+Fernández's research on the Mexican drug cartels with left her with a negative impression about the Mexican government’s willingness to support such work. However, she’s not without hope. “Some of my friends made [data-related projects] work in Mexico,” where, she said, “open government has been forgotten.” 
 
 She hopes that the political climate in Chicago and the US more broadly is more receptive to the open data movement. Indeed, she views the fellowship as an opportunity to test the waters for a career in open government. 
 
