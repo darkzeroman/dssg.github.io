@@ -38,7 +38,7 @@ This week and next, the fellows are meeting with their partner organizations –
 
 Drawing from the partners’ expertise in their fields will make our program evaluations more accurate, useful, and considerate of the high stakes involved for these programs and the individuals they serve. By recognizing the gap between the numbers and the real world, the fellows can build the appropriate caveats into their conclusions.
 
-In addition to understanding the qualitative context of the organization, there are also quantiative methods for detecting these "dark matter" factors. Economists use a number of statistical techniques, including instrumental variables and control function methods, to filter out the hidden influence of unobserved factors, and reach more accurate conclusions about an intervention's effectiveness.
+In addition to understanding the qualitative context of the organization, there are also quantitative methods for detecting these "dark matter" factors. Economists use a number of statistical techniques, including instrumental variables and control function methods, to filter out the hidden influence of unobserved factors, and reach more accurate conclusions about an intervention's effectiveness.
 
 The goal is to improve care in the city by learning what works and spreading those ideas, rather than just rewarding the good and abandoning the bad. Finding the most accurate path to that goal is as much about understanding the data that’s missing as it is about analyzing the data that’s there.
 
