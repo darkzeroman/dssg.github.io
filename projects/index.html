@@ -18,6 +18,14 @@ layout: default
   	We're strong believers in open knowledge and open source. We'll blog extensively about our projects, and make much of our research and code open to everyone.
   </p>
 
+  <br>
+  <div class="alert alert-success">
+    <h6>
+      We're not quite ready to announce all partners and projects. We'll be adding more in the next few days.
+      <strong>Check back for more!</strong>
+    </h6>
+  </div>
+
   <!-- Iterate through projects and display info -->
   {% for post in site.posts %}
     {% if post.type == 'org' %}
@@ -44,7 +52,7 @@ layout: default
 
           <!-- Project name -->
           - {{ post.project }}
-          
+
         </h4>
 
         <!-- Partner logos -->
@@ -65,14 +73,6 @@ layout: default
 
     {% endif %}
   {% endfor %}
-    <br>
-    <br>
-   <div class="alert alert-success">
-    <h6>
-      We're not quite ready to announce all of our partners and projects. 
-      <strong>Check back for more!</strong>
-    </h6>
-  </div>
 
 </div>
 
