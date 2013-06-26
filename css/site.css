@@ -170,7 +170,17 @@ p {
 /* Project partners */
 #partners .span3 {
 	margin: 30px 0 30px 30px;
-	height: 120px;
+	height: 140px;
+}
+
+#partners img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#cta {
+	margin-top: -40px;
 }
 
 #aws {
