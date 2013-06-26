@@ -1,0 +1,15 @@
+---
+type: org
+issue: Transportation
+org: Chicago Transit Authority
+img: cta.png
+website: ['http://www.transitchicago.com']
+project: Simulating better bus service
+---
+
+The [Chicago Transit Authority](http://www.transitchicago.com) (CTA) runs the nation's second largest transit system. Its buses and trains agency move a ton of people - around 1.6 million trips are taken each day. CTA also gather lots of data: they know [where buses and trains are](http://www.transitchicago.com/developers/bustracker.aspx) in real-time and how many people get on and off at each bus stop.
+
+We’re building transit planning tools that help CTA better predict the impact of a service change on a route - and all connecting routes - before deploying a single vehicle.
+
+We’ll use CTA’s bus GPS and passenger count data to simulate future demand at every stop in Chicago, and predict how well transit service is likely to perform under a particular schedule change. We’ll also map how different schedules affect Chicagoans’ ability to get around. The goal is to use cutting-edge simulation to enhance the CTA’s ability to plan bus and rail service.
+      
