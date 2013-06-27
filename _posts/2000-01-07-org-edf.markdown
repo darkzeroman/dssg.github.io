@@ -1,0 +1,12 @@
+---
+type: org
+org: Environmental Defense Fund
+img: [edf.jpg]
+website: ['http://www.cleanenergyfinancecenter.org/']
+project: Predicting building energy savings 
+---
+Besides the difficulty of predicting the energy savings that are likely to result from a building retrofit, there’s another key obstacle to large-scale investment in building energy efficiency: investors lack clear data on past retrofit loans. As a result, they have a hard time predicting whether a building owner is likely to pay back a loan, and are less likely to invest in viable projects.
+ 
+We’re partnering with the Environmental Defense Fund’s [Investor Confidence Project](http://www.eeperformance.org/data-project.html) and the [Clean Energy Finance Center](http://www.cleanenergyfinancecenter.org/) to help the financial industry make better energy efficiency loans. Since energy efficiency investing is in the early stages, there is limited historical energy loan data, and what does exist has never been brought together. 
+
+Fellows will collect loan and energy performance data from leading energy efficiency finance programs across the country. They’ll analyze this data to understand how a loan’s underwriting criteria and a building’s energy savings affect the loan’s performance.
