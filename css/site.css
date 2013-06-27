@@ -179,26 +179,29 @@ p {
 	margin-left: auto;
 }
 
-#cta {
+#cta-logo {
 	margin-top: -40px;
 }
 
-#aws {
+#aws-logo {
 	margin-top: -25px;
 }
 
-#qcri {
+#qcri-logo {
 	margin-top: -35px;
 }
 
-#landbank {
+#landbank-logo {
 	margin-top: -10px;
 }
 
-#ihs {
+#ihs-logo {
 	margin-top: 5px;
 }
 
+#lbnl-logo {
+	margin-top: -35px;
+}
 
 /* Adjust project partner pics for small screens */
 @media (max-width: 480px) {
