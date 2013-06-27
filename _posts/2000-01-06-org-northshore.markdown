@@ -5,7 +5,7 @@ org: NorthShore University HealthSystem
 slug: northshore
 img: northshore.jpg
 website: ['http://www.northshore.org/']
-project:  Predicting medical problems with electronic health records
+project:  Mining electronic health records to predict medical problems
 ---
 
 Electronic medical records (EMR) promise to transform our understanding of patients’ ailments and improve their care. [NorthShore University HealthSystem](http://www.northshore.org/) in suburban Chicago has been a national leader in the implementation of EMR systems for the past decade. It is the first healthcare provider to be awarded the highest level of EMR deployment for both inpatient and outpatient care. This remarkable effort has generated much anonymized data available for innovative analytics research.
