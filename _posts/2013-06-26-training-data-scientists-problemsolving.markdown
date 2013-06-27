@@ -43,7 +43,7 @@ Illinois' marketplace will let individuals and small businesses shop for insuran
 
 The challenge: ~80% of the people the State of Illinois wants to insure through the marketplace have never heard of it. So Illinois Governor Pat Quinn has put together a team to get the word out about the program, and to persuade as many uninsured people as possible to sign up.
 
-This marketplace team is mounting an [ambitious marketing campaign](http://www.chicagobusiness.com/article/20130412/NEWS03/130419933/ap-interview-quinn-hire-to-market-health-overhaul) later this year. Their goal: to enroll 486,000 of Illinois' 1.6 million uninsured by the end of 2014. To reach these folks, they'll be able to spend up to $35 million on phone calls, direct mail,, and ads - from TV spots to tweets. But who exactly should they be targeting with all this outreach?
+This marketplace team is mounting an [ambitious marketing campaign](http://www.chicagobusiness.com/article/20130412/NEWS03/130419933/ap-interview-quinn-hire-to-market-health-overhaul) later this year. Their goal: to enroll 486,000 of Illinois' 1.6 million uninsured by the end of 2014. To reach these folks, they'll be able to spend up to $35 million on phone calls, direct mail, and ads - from TV spots to tweets. But who exactly should they be targeting with all this outreach?
 
 That's the big problem the team is facing: how do you reach hundreds of thousands of uninsured people - many of whom have never had coverage before - and persuade them to buy a product they're required to purchase?
 
