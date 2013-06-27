@@ -1,11 +1,14 @@
 ---
+published: true
 type: org
-org: Nurse-Family Partnership
-slug: case
+org: "Nurse-Family Partnership"
+slug: nfp
 img: nfp.jpg
-website: ['http://www.nursefamilypartnership.org']
+website: 
+  - "http://www.nursefamilypartnership.org"
 project: Tracking the impact of early childhood health programs
 ---
+
 When a young woman becomes pregnant before she’s ready, the risk factors for her and her baby escalate. Too often, the result is poverty, instability, and despair. 
 
 [Nurse-Family Partnership](www.nursefamilypartnership.org) intervenes by pairing specially trained nurses with low-income families. Expecting mothers receive nurse home visits from pregnancy until the baby is two years old. The result: more successful pregnancies, more stable families, and healthier kids that do better in school and life.
