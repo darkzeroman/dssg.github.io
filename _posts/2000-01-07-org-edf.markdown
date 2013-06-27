@@ -1,6 +1,7 @@
 ---
 type: org
 org: Environmental Defense Fund
+slug: edf
 img: [edf.jpg]
 website: ['http://www.cleanenergyfinancecenter.org/']
 project: Predicting building energy savings 

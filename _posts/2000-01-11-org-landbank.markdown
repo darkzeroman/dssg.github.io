@@ -2,6 +2,7 @@
 type: org
 issue: Economic Development
 org: [Cook County Land Bank, Institute for Housing Studies]
+slug: landbank
 img: [landbank.jpg, ihs.png, cookcounty.png]
 website: ['http://www.cookcountylandbank.org/', 'http://www.housingstudies.org/', 'http://www.cookcountygov.com/'] 
 project: Abandoned property analytics tool

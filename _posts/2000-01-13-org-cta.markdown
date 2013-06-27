@@ -2,6 +2,7 @@
 type: org
 issue: Transportation
 org: Chicago Transit Authority
+slug: cta
 img: cta.png
 website: ['http://www.transitchicago.com']
 project: Simulating better bus service

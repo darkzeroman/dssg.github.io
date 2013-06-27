@@ -2,6 +2,7 @@
 type: org
 issue: Energy
 org: Lawrence Berkeley National Laboratory
+slug: lbnl
 img: [lbnl.png]
 website: ['http://www.lbl.gov/']
 project: Predicting building energy savings 

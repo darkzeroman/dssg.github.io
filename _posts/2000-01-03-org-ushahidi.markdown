@@ -3,6 +3,7 @@ published: true
 type: org
 issue: Disaster response
 org: Ushahidi
+slug: ushahidi
 img: ushahidi.png
 website: ['http://www.ushahidi.com']
 project: Smarter crowdsourcing for crisis maps

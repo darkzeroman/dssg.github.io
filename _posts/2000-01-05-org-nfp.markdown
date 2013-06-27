@@ -1,6 +1,7 @@
 ---
 type: org
 org: Nurse-Family Partnership
+slug: case
 img: nfp.jpg
 website: ['http://www.nursefamilypartnership.org']
 project: Tracking the impact of early childhood health programs

@@ -145,24 +145,24 @@ p {
 	vertical-align: bottom;
 }
 
-#uofc {
+#partners #uofc {
 	margin-top: 10px;
 }
 
-#ci {
+#partners #ci {
 	margin-top: -8px; 
 }
 
-#urbanccd {
+#partners #urbanccd {
 	margin-top: 0px;
 }
 
 
-#harris {
+#partners #harris {
 	margin-top: 15px;
 }
 
-#argonne {
+#partners #argonne {
 	margin-top: -18px;
 }
 
@@ -170,7 +170,7 @@ p {
 /* Project partners */
 #partners .span3 {
 	margin: 30px 0 30px 30px;
-	height: 140px;
+	height: 10px;
 }
 
 #partners img {
@@ -179,23 +179,23 @@ p {
 	margin-left: auto;
 }
 
-#cta {
+#partners #cta {
 	margin-top: -40px;
 }
 
-#aws {
+#partners #aws {
 	margin-top: -25px;
 }
 
-#qcri {
+#partners #qcri {
 	margin-top: -35px;
 }
 
-#landbank {
+#partners #landbank {
 	margin-top: -10px;
 }
 
-#ihs {
+#partners #ihs {
 	margin-top: 5px;
 }
 

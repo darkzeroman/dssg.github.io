@@ -1,7 +1,8 @@
 ---
 type: org
 issue: Health
-org: NorthShore Hospital
+org: NorthShore University HealthSystem
+slug: northshore
 img: northshore.jpg
 website: ['http://www.northshore.org/']
 project: Mining electronic medical records for better health
