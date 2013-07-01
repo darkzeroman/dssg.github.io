@@ -1,8 +1,11 @@
 ---
 type: event
-speakers: Q McCallum (NWay Solutions)
+speakers: Q Ethan McCallum (NWay Solutions)
 img: [mapreduce.jpg]
 slug: 
 website: ['www.qethanm.cc/']
 event: Intro to Elastic MapReduce
 ---
+[Q Ethan McCallum](http://www.qethanm.cc/) is a technology consultant based in Chicago. He is the author is of the [Bad Data Handbook](http://shop.oreilly.com/product/0636920024422.do) and [Parallel R](http://shop.oreilly.com/product/0636920021421.do), a field guide to analyzing large datasets with the R statistical programming language. He's writing a new book - [Making Analytics Work](http://www.qethanm.cc/01/announcements/unveiling-a-new-project-making-analytics-work/) - with former City of Chicago CIO [Brett Goldstein](http://harrisschool.uchicago.edu/press-release/brett-goldstein-cio-city-chicago-joins-chicago-harris), and is an active member of Chicago's open government and data communities.
+
+Q talked gave fellows a crashcourse in Elastic Map Reduce, Amazon's hosted version of Hadoop, a technology for storing and processing big data.
