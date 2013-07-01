@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <h2 class="page-title">
+    Events
+    <hr>
+  </h2>	
+  <p>
+  	We want to expore our fellows to all Chicago's rich data and government community, so we're bringing in dozens of 
+    speakers this summer.
+  </p>
+   <p> 
+    All events are public. Feel free to join us to check out the space and meet the fellows!
+  </p>
+
+  <!-- Iterate through events and display info -->
+  {% for post in site.posts %}
+    {% if post.type == 'event' %}
+
+      <div id="events" class="row section">
+
+        <!-- Event date -->
+        <span class="label label-large label-important">{{ post.date | date_to_long_string }}</span>
+
+        <!-- Event speaker -->
+        <h4 id="{{ post.slug }}" class="event-title">
+
+          <!-- Event speakers -->
+          {% for speaker in post.speakers %}
+            <!-- Fetch the right partner url using current loop index-->
+            <a href="{{ post.website[forloop.index0] }}">{{ speaker }}</a>
+            <!-- Add comma after speaker name, unless last speaker in partner list -->
+            {% if forloop.last != true %}
+              &
+            {% endif %} 
+          {% endfor %}
+
+          <!-- Event title -->
+          - {{ post.event }}
+
+        </h4>
+
+        <!-- Speaker pic -->
+        <div class="span4">
+            {% for img in post.img %}
+              <!-- Fetch the right image link as you loop through partner logos -->
+              <a href="{{ post.website[forloop.index0] }}">            
+              <img src="/img/events/{{ img }}">
+              </a>
+            {% endfor %}
+        </div>
+
+        <!-- Event description -->
+        <div class="span8">
+          {{ post.content }}
+        </div>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+
+</div>
+

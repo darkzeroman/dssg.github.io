@@ -306,6 +306,19 @@ p {
 	margin-left: auto;
 }
 
+/* EVENTS page */
+
+.event-title {
+	margin-bottom: 40px;
+}
+
+#events img {
+	margin-bottom: 30px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 /* POST */
 
 #post-pic {

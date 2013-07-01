@@ -1,0 +1,8 @@
+---
+type: event
+speakers: Q McCallum (NWay Solutions)
+img: [mapreduce.jpg]
+slug: 
+website: ['www.qethanm.cc/']
+event: Intro to Elastic MapReduce
+---
