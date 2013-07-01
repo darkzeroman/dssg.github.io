@@ -1,6 +1,6 @@
 ---
 type: event
-speakers: Abe Gong (Jawbone)
+speakers: "Abe Gong (Jawbone)"
 img: gong.jpg
 slug: 
 website: ['https://twitter.com/AbeGong']
