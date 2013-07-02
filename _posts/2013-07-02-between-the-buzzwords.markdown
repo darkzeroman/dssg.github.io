@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 layout: post
 title: "Between the Buzzwords, A Different Route for Tech"
 author: Rob Mitchum
