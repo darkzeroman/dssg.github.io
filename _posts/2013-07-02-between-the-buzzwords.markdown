@@ -1,7 +1,7 @@
 ---
 published: false
 layout: post
-title: Between the Buzzwords, A Different Route for Tech
+title: "Between the Buzzwords, A Different Route for Tech"
 author: Rob Mitchum
 pic: "rayid-techweek.jpg"
 ---
@@ -27,4 +27,3 @@ Fellows are developing a tool that predicts the impact of bus service changes, f
 While all this extra legwork might not be as easy or as glamorous as joining up with one of the slick start-ups on display at Techweek, the benefits of working directly with organizations concerned with social good outweigh the hurdles, Ghani said.
  
 "It's much easier to go to Google and optimize ad clicks, because everything is set up for you," Ghani said. "It's much, much harder to go to non-profits and say, 'I want to help you make better use of your data,' because the first response to that is 'Huh? What data are you talking about?' So it's much, much harder but much more rewarding, because you help people who wouldn't be able to do these things without you."
-
