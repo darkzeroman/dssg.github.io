@@ -170,7 +170,7 @@ p {
 /* Project partners */
 #partners .span3 {
 	margin: 30px 0 30px 30px;
-	height: 130px;
+	height: 150px;
 }
 
 #partners img {
@@ -179,28 +179,12 @@ p {
 	margin-left: auto;
 }
 
-#cta-logo {
-	margin-top: -40px;
-}
-
 #aws-logo {
-	margin-top: -25px;
+	margin-top: -35px;
 }
 
 #qcri-logo {
-	margin-top: -35px;
-}
-
-#landbank-logo {
-	margin-top: -10px;
-}
-
-#ihs-logo {
-	margin-top: 5px;
-}
-
-#lbnl-logo {
-	margin-top: -35px;
+	margin-top: -20px;
 }
 
 /* Adjust project partner pics for small screens */
