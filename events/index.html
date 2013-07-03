@@ -12,17 +12,71 @@ layout: default
   	We want to expose our fellows to the larger data science and social good communities, so we're bringing data meetups and speakers from around the country to our office this summer.
   </p>
    <p> 
-    All meetups and speaker events are <b>open to the public</b>! Feel free to drop by to check out the space and meet the fellows. <a href="http://dssg.eventbrite.com/">Please RSVP</a> to be let in to our offices.
+    All meetups and speaker events are <b>open to the public</b>! Feel free to drop by to check out the space and meet the fellows. <a href="http://www.eventbrite.com/org/4294868091">Please RSVP</a> to be let in to our offices.
   </p>
 
-  <!-- Iterate through events and display info -->
-  {% for post in site.posts %}
-    {% if post.type == 'event' %}
+  <h3>Upcoming events</h3>
+  
+  <!-- Iterate through past events and display info -->
+  {% for post in site.posts reversed %}
+    {% if post.type == 'event' and post.future == 'yes' %}
 
       <div id="events" class="row section">
 
         <!-- Event date -->
-        <span class="label label-large label-important">{{ post.date | date_to_long_string }}</span>
+        <span class="label label-large label-important">{{ post.date | date: "%A, %B %d" }}</span>
+
+        <!-- Event speaker -->
+        <h4 id="{{ post.slug }}" class="event-title">
+
+          <!-- Event speakers -->
+          {% for speaker in post.speakers %}
+            <!-- Fetch the right partner url using current loop index-->
+            <a href="{{ post.website[forloop.index0] }}">{{ speaker }}</a>
+            <!-- Add comma after speaker name, unless last speaker in partner list -->
+            {% if forloop.last != true %}
+              &
+            {% endif %} 
+          {% endfor %}
+
+          <!-- Event title -->
+          - {{ post.event }}
+
+        </h4>
+
+        <!-- Speaker pic -->
+        <div class="span4">
+            {% for img in post.img %}
+              <!-- Fetch the right image link as you loop through partner logos -->
+              <a href="{{ post.website[forloop.index0] }}">            
+              <img src="/img/events/{{ img }}">
+              </a>
+            {% endfor %}
+        </div>
+
+        <!-- Event description -->
+        <div class="span8">
+          {{ post.content }}
+        </div>
+      </div>
+
+    {% endif %}
+  {% endfor %}
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <h3>Past events</h3>
+  <!-- Iterate through events and display info -->
+  {% for post in site.posts %}
+    {% if post.type == 'event' and post.future != 'yes' %}
+
+      <div id="events" class="row section">
+
+        <!-- Event date -->
+        <span class="label label-large label-important">{{ post.date | date: "%A, %B %d" }}</span>
 
         <!-- Event speaker -->
         <h4 id="{{ post.slug }}" class="event-title">
