@@ -10,4 +10,6 @@ event: Telling Compelling Stories with Data
 
 He is extremely close to completing his PhD in political science from the University of Michigan. He is researching civility and online political participation in the US political blogosphere by applying text mining techniques to thousands of blog posts gathered from the web.
 
-He'll talk to fellows about telling powerful stories with data, and how data science works in Silicon Valley.
+He talked to fellows about telling powerful stories with data, and how data science works in Silicon Valley. 
+
+<a href="http://www.youtube.com/watch?v=kuHPVa4FJgE" class="btn btn-huge btn-success btn-block btn-embossed">Watch Abe's talk here!</a>

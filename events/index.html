@@ -16,7 +16,7 @@ layout: default
   </p>
 
   <h3>Upcoming events</h3>
-  
+
   <!-- Iterate through past events and display info -->
   {% for post in site.posts reversed %}
     {% if post.type == 'event' and post.future == 'yes' %}
