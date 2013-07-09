@@ -57,6 +57,27 @@ layout: default
     </div>
   </div>
 
+  <div id="blog" class="row section">
+        <h3>Blog</h3>
+        <hr>
+        <p>Read our blog to follow the fellowship and learn about our projects.
+        {% for post in site.posts limit:12 %}
+          {% unless post.type == 'org' or post.type == 'event' %}
+            <article>
+              <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
+              <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
+            </article>
+          {% endunless %}
+        {% endfor %}
+        <div class="span8">
+        </div>
+        <div class="span3">
+          <a href="/people/" class="btn btn-huge btn-block btn-embossed btn-danger">
+            Read More Posts →
+          </a>
+        </div>
+    </div>
+
   <div id="partners" class="row section">
     <h3>Our Project Partners</h3>
     <hr>
@@ -168,7 +189,7 @@ layout: default
         <p>Yale University</p>
       </div>
       <div class="span3">
-        <a href="/people/" class="btn btn-huge btn-block btn-embossed btn-danger">
+        <a href="/people/" class="btn btn-huge btn-block btn-embossed btn-info">
           Meet our Fellows →
         </a>
       </div>
@@ -269,22 +290,8 @@ layout: default
         </div>
       </div>
     </div>
-
-    <div id="partners" class="row section">
-        <h3>Blog</h3>
-        <hr>
-        <p>Read our blog to follow the fellowship and learn about our projects.
-        {% for post in site.posts %}
-          {% unless post.type == 'org' or post.type == 'event' %}
-            <article>
-              <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
-              <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
-            </article>
-          {% endunless %}
-        {% endfor %}
-    </div>
+  
   </div>
-
 </div>
 
 <script src="/js/js/jquery-1.8.3.min.js"></script>
