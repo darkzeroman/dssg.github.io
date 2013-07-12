@@ -1,7 +1,6 @@
 ---
-published: "true"
+published: true
 layout: default
-
 ---
 
 <div class="container">
@@ -47,7 +46,7 @@ layout: default
     <div class="offset2 span8">
       <br><br>
       <p>
-        The Eric & Wendy Schmidt Data Science for Social Good fellowship is a <a href="http://www.uchicago.edu/">University of Chicago</a> summer program for aspiring data scientists to work on data mining, machine learning, big data, data science projects with social impact.
+        The Eric & Wendy Schmidt Data Science for Social Good fellowship is a <a href="http://www.uchicago.edu/">University of Chicago</a> summer program for aspiring data scientists to work on data mining, machine learning, big data, and data science projects with social impact.
       </p>
       <p>
         Working closely with governments and nonprofits, fellows will take on <strong>real-world problems</strong> in education, health, energy, transportation, and more.
@@ -58,12 +57,48 @@ layout: default
     </div>
   </div>
 
+  <div id="blog" class="row section">
+        <h3>Blog</h3>
+        <hr>
+        <p>Read our blog to follow the fellowship and learn about our projects.
+        {% for post in site.posts limit:11 %}
+          {% unless post.type == 'org' or post.type == 'event' %}
+            <article>
+              <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
+              <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
+            </article>
+          {% endunless %}
+        {% endfor %}
+        <div class="span8">
+        </div>
+        <div class="span3">
+          <a href="/people/" class="btn btn-huge btn-block btn-embossed btn-danger">
+            Read More Posts →
+          </a>
+        </div>
+    </div>
+
   <div id="partners" class="row section">
     <h3>Our Project Partners</h3>
     <hr>
     <div class="span3">
+      <a href="http://www.cityofchicago.org">
+          <img id="city-logo" src="/img/partners/city_small.jpg">
+      </a>
+    </div>
+    <div class="span3">
       <a href="http://transitchicago.com/">
           <img id="cta-logo" src="/img/partners/cta_small.png">
+      </a>
+    </div>
+    <div class="span3">
+      <a href="http://www.chicagopolice.org">
+          <img id="cpd-logo" src="/img/partners/cpd_small.jpg">
+      </a>
+    </div>
+    <div class="span3">
+      <a href="http://www.cookcountygov.com/">
+          <img id="county-logo" src="/img/partners/cookcounty_small.png">
       </a>
     </div>
     <div class="span3">
@@ -84,6 +119,16 @@ layout: default
     <div class="span3">
       <a href="http://www.edf.org/">
         <img id="edf-logo" src="/img/partners/edf.jpg">
+      </a>
+    </div>
+    <div class="span3">
+      <a href="http://www.chapinhall.org">
+        <img id="chapin-logo" src="/img/partners/chapin.jpg">
+      </a>
+    </div>
+    <div class="span3">
+      <a href="http://crimelab.uchicago.edu">
+        <img id="crimelab-logo" src="/img/partners/crimelab.jpg">
       </a>
     </div>
     <div class="span3">
@@ -113,7 +158,7 @@ layout: default
     </div>
     <div class="span3">
       <a href="http://aws.amazon.com/">
-        <img id="aws" src="/img/partners/aws.png">
+        <img id="aws-logo" src="/img/partners/aws.png">
       </a>
     </div>
   </div>
@@ -144,7 +189,7 @@ layout: default
         <p>Yale University</p>
       </div>
       <div class="span3">
-        <a href="/people/" class="btn btn-huge btn-block btn-embossed btn-danger">
+        <a href="/people/" class="btn btn-huge btn-block btn-embossed btn-info">
           Meet our Fellows →
         </a>
       </div>
@@ -245,22 +290,8 @@ layout: default
         </div>
       </div>
     </div>
-
-    <div id="partners" class="row section">
-        <h3>Blog</h3>
-        <hr>
-        <p>Read our blog to follow the fellowship and learn about our projects.
-        {% for post in site.posts %}
-          {% unless post.type == 'org' or post.type == 'event' %}
-            <article>
-              <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
-              <p class="post-date-author">{{ post.date | date_to_string }} - {{ post.author }}</p>
-            </article>
-          {% endunless %}
-        {% endfor %}
-    </div>
+  
   </div>
-
 </div>
 
 <script src="/js/js/jquery-1.8.3.min.js"></script>

@@ -1,0 +1,20 @@
+---
+type: org
+org: ['City of Chicago', 'Chapin Hall at the University of Chicago']
+slug: city
+img: ['city.jpg', 'chapin.jpg']
+website: ['http://www.cityofchicago.org', 'http://www.chapinhall.org']
+project: Predictive Analytics for Smarter City Services
+---
+From transportation to potholes to graffiti to abandoned buildings, city governments are tasked with innumerable responsibilities to keep their residents moving and their neighborhoods safe and thriving. But cities are vast places - Chicago alone has around 28,000 city blocks - where multifaceted relationships are the norm.
+
+To operate effectively on this scale, municipalities have always relied on city residents to point out where the problems are. Historically, problem reporting was informal and decentralized - a face-to-face meeting or a call to an official. 
+
+But in 1999, Chicago changed all that by adopting a comprehensive 311 system that collects information centrally and electronically: residents call a single number to report broken streetlights, unsanitary restaurants, and dozens of other non-emergency problems. As of last year, residents can now [submit reports online](http://servicetracker.cityofchicago.org).
+
+This system streamlined how government receives and responds to issues. And it created a [wealth of data](https://data.cityofchicago.org/browse?q=311&sortBy=relevance&utf8=%E2%9C%93) about the location and type of problems all across the city. That's some Big Data.
+
+Today, the City of Chicago is harnessing this data to make city services even smarter. By using predictive analytics, they're beginning to react to problems faster - and to anticipate them before they happen.
+
+The University of Chicago and Chapin Hall are excited to work with the City to build on this analytics work. Our fellows will analyze 311 data, predicting when and where graffiti, potholes, and other problems are likely to occur. Working with Chapin Hall at the University of Chicago, fellows will build analytics models that could eventually be used to prevent problems and deliver city services more proactively.
+

@@ -5,7 +5,8 @@ issue: Disaster response
 org: Ushahidi
 slug: ushahidi
 img: ushahidi.png
-website: ['http://www.ushahidi.com']
+website: 
+  - "http://www.ushahidi.com"
 project: Smarter crowdsourcing for crisis maps
 ---
 
@@ -19,4 +20,4 @@ Before a report can be mapped, volunteers must assign a category (e.g., “need 
 We’re using machine learning to build a smarter review system that
 learns from volunteers as they categorize reports. Our tool will
 speed up data processing during emergency situations, reduce volunteer
-burnout, and empower governments, election monitors, and other responders to spot emerging problems more quickly.
+burnout, and empower governments, election monitors, and other responders to spot and address emerging problems more quickly and efficiently.
