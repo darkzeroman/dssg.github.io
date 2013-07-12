@@ -10,10 +10,21 @@ layout: default
 </div>
 {% endif %}
 
+<!-- Post container -->
 <article id="post" class="container">
 	<div class="row">
+
+	
+			{% if page.pic-credit %}
+				<br>
+				<!-- <div class="small"> -->
+				photo by <a href="http://www.flickr.com/photos/{{ page.pic-credit }}">{{ page.pic-credit }}</a>
+			<!-- </div> -->
+			{% endif %}
+
 		<!-- Post title and date -->
 		<div class="span8 offset2">
+
 			<div class='page-header'>
 				<h1 class="post-title page-title">
 					<a href="{{ page.url }}">{{ page.title }}</a>
@@ -21,6 +32,7 @@ layout: default
 		    	<p class="post-date-author">{{ page.date | date_to_string }} - {{ page.author }}</p>
 			</div>
 		</div>
+
 		<!-- Post content -->
 		<div class="span12">
     		{{ content }}

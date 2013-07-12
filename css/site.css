@@ -353,6 +353,11 @@ p {
 	margin-left: auto;
 }
 
+/* Add room below photo captions */ 
+#post .small {
+	margin-bottom: 40px;
+}
+
 /*Assigning narrower width to p elements so pics can be wider than text screws */
 /*up h4, li, and blockquote elements. Making them the same narrow width - and the */
 /*p elements inside them 100% - fixes this.*/
