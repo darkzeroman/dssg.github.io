@@ -34,13 +34,15 @@ One idea inspired by that observation was to classify incoming messages by langu
 - guessing a report’s category - such as “food” or “water” in the disaster context, “violence at the polling place” or “polling place opening late” in the election monitoring context.
 - identifying entities in reports: people, places and other proper nouns
 - flagging (near) duplicate messages
- 
+
+<img src="/img/posts/workflow.png">
+
 #### The value of a "dumb" prototype
 When the team received 27 previous uses of the Ushahidi platform -- including elections in India and Venezuela, floods in Pakistan, burglaries in Atlanta, and more – the team turned from user research to quickly building a prototype that sorts messages for those initial four tasks.
 
-<img src="/img/posts/ushahidi-prototype1.png">
+The team constructed this bare-bones prototype using off-the-shelf machine learning toolkits for free text recognition and categorization. For automatic categorization of messages, the team is using [scikit-learn](http://scikit-learn.org/stable/), a Python machine learning module they were introduced to in a DSSG Learning Lunch talk by fellow Scott Alfeld. Other tools the team is currently working with include [nltk](http://nltk.org/), for recognizing entities and locations, and [SimHash](https://github.com/owainlewis/sim-hash) for detecting duplicate information. 
 
-The team constructed this bare-bones prototype using off-the-shelf machine learning toolkits for free text recognition and categorization. For automatic categorization of messages, the team is using [scikit-learn](http://scikit-learn.org/stable/), a Python machine learning module they were introduced to in a DSSG Learning Lunch talk by fellow Scott Alfeld. Other tools the team is currently working with include [nltk](http://nltk.org/), for recognizing entities and locations, and [sim-hash](https://github.com/owainlewis/sim-hash) for detecting duplicate information. 
+<img src="/img/posts/ushahidi-prototype1.png">
 
 The original prototype’s performance… well, it's "not very good yet," according to Jacobs. But this first iteration is a crucial first step towards the ultimate goal of the summer.
  
