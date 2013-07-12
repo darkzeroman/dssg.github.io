@@ -18,7 +18,7 @@ Beginning in 2006, a first wave of foreclosures hit poor and minority neighborho
 
 Hundreds of thousands of families lost their homes, leaving vacant and abandoned buildings in distressed neighborhoods already full of them - and in communities that had never seen them before.
 
-This map from the [Urban Land Institute](http://chicago.uli.org/) tells the story:
+This map from the [Urban Land Institute](http://chicago.uli.org/) and the [Institute for Housing Studies](http://www.housingstudies.org) tells the story:
 
 <a href="http://chicago.uli.org/wp-content/uploads/2012/03/121171-ULI-CC-Land-Bank-TAP.pdf"><img src="/img/posts/foreclosure-vacant.jpg"></a>
 
