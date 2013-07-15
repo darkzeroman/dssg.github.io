@@ -14,13 +14,17 @@ layout: default
 <article id="post" class="container">
 	<div class="row">
 
-	
-			{% if page.pic-credit %}
-				<br>
-				<!-- <div class="small"> -->
-				photo by <a href="http://www.flickr.com/photos/{{ page.pic-credit }}">{{ page.pic-credit }}</a>
-			<!-- </div> -->
+		<!-- Photo caption and credit -->
+		{% if page.pic-credit %}
+			<br>
+			{% if page.pic-caption %}
+				{{ page.pic-caption }}
 			{% endif %}
+			<i>
+				Photo by 
+				<a href="http://www.flickr.com/photos/{{ page.pic-credit }}">{{ page.pic-credit }}</a>
+			</i>
+		{% endif %}
 
 		<!-- Post title and date -->
 		<div class="span8 offset2">
