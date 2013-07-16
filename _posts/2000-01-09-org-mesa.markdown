@@ -1,0 +1,20 @@
+---
+type: org
+org: Mesa Public Schools
+img: [mesa.png]
+slug: mesa
+website: ['www.mpsaz.org']
+project: Getting kids into college
+---
+
+With over 63,000 students, Mesa Public Schools is the largest school district in Arizona. It serves the City of Mesa, a suburb of Phoenix. Around 75% of Mesa students who start ninth grade end up graduating high school, right in line with the national graduation rate.
+
+Although 95% of these graduates intend to go college or other training, only 68% attend within two years of graduation. Six years later, only 26-28% of graduates have a two or four year degree. That’s a lot of dreams deferred or denied.
+ 
+Many of these students are ready for college but simply don’t apply. Or, they get into college but don’t enroll, or enroll but do not complete a degree. Others are not prepared for college. We know, however, that all of them need post-secondary training for their future success.
+
+We’re going to analyze Mesa’s education data - including students’ classes, grades, test scores, college attendance, and more - in order to identify these college-ready candidates.
+
+We’ll also identify students who are aiming too low - that enroll in a two-year degree when they could be attending a four-year university - and graduates who show up to college on the first day but never collect their degree.
+
+The goal is to empower Mesa Public Schools to identify students likely to get off-track and to target these individual students with the support they need to enroll in college, graduate and embark on a  fulfilling career.
