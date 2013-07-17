@@ -19,21 +19,25 @@ Here's how it's working: they spent the first two weeks of the program talking t
 #### Problem-solving bootcamp 
 Just as we organized a tech bootcamp to acquaint fellows with the [data tools available to them](/2013/06/08/training-data-scientists-tools.html), we put on a problem-solving bootcamp to prep them for these partner meetings. 
 
-Dean Malmgren from [Datascope Analytics](http://datascopeanalytics.com/), a Chicago-based analytics consultancy, gave the fellows a whirlwind introduction to the key steps in [data science problem-solving](http://strata.oreilly.com/2013/04/why-why-why.html): defining the problem and brainstorming a data solution.
+Former OkCupid data scientist [Max Shron](http://shron.net) and Dean Malmgren from [Datascope Analytics](http://datascopeanalytics.com/), a Chicago-based analytics consultancy, gave the fellows a whirlwind introduction to the key steps in [data science problem-solving](http://strata.oreilly.com/2013/04/why-why-why.html): defining the problem and brainstorming a data solution.
 
 Instead of discussing these techniques in the abstract, though, we applied them to a real organization - the State of Illinois.
+
+<img src="/img/posts/shron-group.jpg">
+<div class="small">Volunteer mentor Max Shron introduces fellows to data science problem-solving techniques.</div>
 
 #### The problem: Insuring people in Illinois
 
 Brian Gorman, George Letavish, and Erik Wallenius (pictured below) from the State of Illinois are some of the key players implementing health care reform in the land of Lincoln. They dropped by the office to tell the fellows about the immense policy challenge they're facing: enrolling hundreds of thousands of Illinois' uninsured people into the State's new [Health Insurance Marketplace](http://www2.illinois.gov/gov/healthcarereform/Pages/HealthInsuranceMarketplace.aspx).
-
-<img src="/img/posts/malmgren-gorman.jpg">
  
 As is often the case when data scientists work with a new organization, most fellows knew little about the world of health insurance or the Affordable Care Act. (If that describes you too, click [here](http://www.washingtonpost.com/blogs/wonkblog/wp/2012/06/24/11-facts-about-the-affordable-care-act/) for an excellent primer on the ACA.)
  
 So they started from scratch, peppering our partner with questions in order to grasp the essentials of health care reform and pin down the specific policy problem the State is facing. Here's what they found:
 
 An estimated 1.6 million Illinois residents lack health insurance. The Affordable Care Act aims to change this by making most of these folks eligible for affordable health care coverage.
+
+<img src="/img/posts/malmgren-gorman.jpg">
+<div class="small">Volunteer mentor Dean Malmgren and the State of Illinois Insurance Marketplace team talk to the fellows.</div>
 
 Here's how it'll work: on January 1st, 2014, most Americans will be required to buy health insurance. Those who aren't already covered by their employer will be able to buy coverage from new [online health insurance marketplaces](https://www.healthcare.gov/). Depending on the state, these marketplaces will be run by the federal government, state government, or a partnership between the two.
 
@@ -63,6 +67,7 @@ The State of Illinois, on the other hand, has almost no data on individuals. The
 With that constraint in mind, the fellows split off into smaller groups to brainstorm analytics solutions to the State's targeting problem. 
 
 <img src="/img/posts/aca-group.jpg">
+<div class="small">Brian Gorman and Erik Wallenius explain to fellows how the Illinois Health Insurance Marketplace works.</div>
 
 After an hour of brainstorming, we distilled themes from the dozens of proposed solutions. Three approaches to the targeting problem emerged:
 
@@ -73,6 +78,7 @@ After an hour of brainstorming, we distilled themes from the dozens of proposed 
 - Use people’s social networks: Since people tend to know people like themselves, the State could incentivize the newly-enrolled to evangelize the marketplace to other uninsured folks in their social networks, online or off. For example, people could refer their friends and family to the marketplace on Facebook, and the State could experiment with different messages to find which ones resonate with different demographics and lead them to sign up.
 
 <img src="/img/posts/nick-aca-ideas.jpg">
+<div class="small">Mentor Nick Mader explains his group's ideas for targetting Illinois' uninsured.</div>
 
 Of course, the workshop was an informal opportunity for the fellows to sharpen their problem-solving skills, and for the State to pick the brains of three dozen data scientists as they develop their analytics strategy and not to solve the problem in that one session.
 
