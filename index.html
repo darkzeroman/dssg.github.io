@@ -29,9 +29,7 @@ layout: default
       <img id="argonne" src="/img/partners/argonne.jpg">
     </div>
   </div>
-
 </div>
-
 
 <div class="dialog dialog-success">
   <div class="container">
@@ -61,7 +59,7 @@ layout: default
         <h3>Blog</h3>
         <hr>
         <p>Read our blog to follow the fellowship and learn about our projects.
-        {% for post in site.posts limit:11 %}
+        {% for post in site.posts limit:10 %}
           {% unless post.type == 'org' or post.type == 'event' %}
             <article>
               <h4 class="post-title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h4>
@@ -222,6 +220,37 @@ layout: default
         <div class="span3">
           <a href="/people/#mentors" class="btn btn-huge btn-block btn-embossed btn-success">
             Meet our Mentors →
+          </a>
+        </div>
+      </div>
+    </div>
+
+     <div class="row section people-spacing">
+      <h3>Our Volunteer Mentors</h3>
+      <hr>
+      <p>
+        Professional data scientists, web developers, and researchers from Chicago's data community and beyond. They're sharing their skills and expertise with the fellows part-time. 
+      </p>
+      <br>
+      <div class="people">
+        <div class="span2">
+          <img src="/img/people/shron.jpg" alt="Max Shron">
+          <h6>Max Shron</h6>
+          <p><a href="http://shron.net/">Data strategist</a> based in New York City, former data scientist at OkCupid</p>
+        </div>
+        <div class="span2">
+          <img src="/img/people/gregg.jpg" alt="Forest Gregg">
+          <h6>Forest Gregg</h6>
+          <p>Sociology PhD student at the University of Chicago</p>
+        </div>
+        <div class="span2">
+          <img src="/img/people/malmgren.png" alt="Dean Malmgren">
+          <h6>Dean Malmgren</h6>
+          <p>Data scientist at <a href='http://datascopeanalytics.com/'>Datascope Analytics</a></p>
+        </div>
+        <div class="span3">
+          <a href="/people/#volunteer-mentors" class="btn btn-huge btn-block btn-embossed btn-warning">
+            Meet our Volunteer Mentors →
           </a>
         </div>
       </div>
