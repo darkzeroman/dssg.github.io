@@ -11,4 +11,4 @@ Trained in physics, applied mathematics and urban economics, his research has ex
 
 Jose talked to Data Science for Social Good fellows about the work of the Urban Scaling Working Group at the Santa Fe Institute on developing a "science of cities." He lead a conversation about how the interplay between urban "big data", theory construction, computational approaches, and modeling can result in a deep understanding of how cities work.
 
-
+<a href="http://youtu.be/rVMRp1Y1Cg0" class="btn btn-huge btn-success btn-block btn-embossed">Watch Jose's talk here!</a>
