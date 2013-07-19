@@ -1,6 +1,5 @@
 ---
 type: org
-issue: Transportation
 org: Chicago Transit Authority
 slug: cta
 img: cta.png
@@ -13,4 +12,4 @@ The [Chicago Transit Authority](http://www.transitchicago.com) (CTA) runs the na
 We’re building transit planning tools that help CTA better predict the impact of a service change on a route - and all connecting routes - before deploying a single vehicle.
 
 We’ll use CTA’s bus GPS and passenger count data to simulate future demand at every stop in Chicago, and predict how well transit service is likely to perform under a particular schedule change. We’ll also map how different schedules affect Chicagoans’ ability to get around. The goal is to use cutting-edge simulation to enhance the CTA’s ability to plan bus and rail service.
-      
+   
