@@ -2,7 +2,6 @@
 type: event
 speakers: "Ian Foster"
 img: foster.jpg
-future: 'yes'
 website: "http://www.ci.uchicago.edu/people/profile.php?id=285"
 event: Director of the Computation Institute at the University of Chicago
 ---
@@ -11,5 +10,3 @@ Ian Foster is the Director of the Computation Institute, a Senior Scientist at A
 Ian's research deals with distributed, parallel, and data-intensive computing technologies, and innovative applications of those technologies to scientific problems such as climate change and biomedicine. Methods and software developed under his leadership underpin many large national and international cyberinfrastructures. 
 
 Ian received a BSc degree from the University of Canterbury, New Zealand and a PhD from Imperial College, United Kingdom  in computer science. 
-
-<a href="http://dssgianfoster.eventbrite.com/" class="btn btn-huge btn-success btn-block btn-embossed">Join us for this event!</a>
