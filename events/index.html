@@ -24,7 +24,7 @@ layout: default
       <div id="events" class="row section">
 
         <!-- Event date -->
-        <span class="label label-large label-important">{{ post.date | date: "%A, %B %d" }}</span>
+        <span class="label label-large label-important">{{ post.date | date: "%A, %B %d" }} - {{ post.time }}</span>
 
         <!-- Event speaker -->
         <h4 id="{{ post.slug }}" class="event-title">
