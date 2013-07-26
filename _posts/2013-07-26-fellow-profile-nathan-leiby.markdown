@@ -1,55 +1,61 @@
 ---
-published: false
+published: true
 layout: post
 title: "Fellow profile: Nathan Leiby"
 author: Skyler Whorton
-pic: andrea.jpg
+pic: nathan.jpg
 ---
 
-In Mexico, drug cartels are locked in violent rivalries that profoundly affect the entire country and its population. The history of this ongoing struggle is complex and steeped in political controversy, but some believe that careful analysis of the past may help the Mexican government curb the violence.
+The core goal of the [Data Science for Social Good](http://www.dssg.io) fellowship is to connect technically skilled people to social problems. For Nathan Leiby, this is already familiar territory. [Leiby](http://www.nathanleiby.com/) is a computer science graduate from Harvard University and has spent the past few years working at the intersection of health and technology. He’s traveled from Massachusetts to Botswana, India and Haiti in pursuit of opportunities to apply computer science to global issues.
+ 
+Leiby says his experience in college was an exploratory process. “I didn't have a clear view that I'd go into CS,” he said. He started by taking courses in music theory, biology and Swahili, but above all, he knew he wanted to travel. This wanderlust combined with an emergent interest in medicine inspired him to study viral evolution at a research laboratory in Botswana. As a student in the [Botswana-Harvard Partnership](http://www.hsph.harvard.edu/bhp/), an AIDS research organization, he helped doctors categorize HIV cases and study human genome changes after infection.
+ 
+“As much as I admired the work they did, I didn’t think being a doctor was the right thing for me,” Leiby said. He returned to the Harvard campus and soon found another inspiration.
+ 
+“I wanted to go back to quantitative things,” Leiby explained, which lead him to take a computer science course with Professor David Malan. Malan gained popularity in 2012 from offering “CS50: Introduction to Computer Science I” as a massive open online course (MOOC) on [edX](https://www.edx.org/), attracting over 100,000 people to sign up. Leiby explains that it was Malan’s unique teaching style and mentorship that jump started his interest in computer science. “I was one of the people lucky enough to be inspired by that,” Leiby said.
+ 
+Leiby was still interested in public health. “Mobile is synonymous with global health and the developing world,” he said, “so I knew I should probably understand these trends better.” This motivated him to accept a position on Microsoft’s Windows Phone team after graduating with his Bachelor’s degree. As a Software Developer in Test, Leiby became an expert on the phone’s performance, memory, battery and reliability issues.
+ 
+Working at Microsoft helped Leiby learn new programming languages and tools, but left him wanting to apply himself further. So he started working pro-bono on several open-source software projects.
+ 
+One of his first projects was working with [Raxa](http://www.raxa.org/), an India-based health IT company that provides a free, open source software to rural hospitals in India that can’t afford commercial solutions. The organization believes that freely offering electronic medical records (EMR) to patients and care providers in remote as well as urban areas in India can significantly improve the quality of care. They aim to maximize EMR usage in India by making their product available across many platforms, especially mobile phones and devices.
 
-This was the guiding maxim for Andrea Fernández, a [Data Science for Social Good](http://www.dssg.io) fellow, during her work with the National Security Council in Mexico. According to Fernández ([@feranimal](https://twitter.com/feranimal) on twitter), the conventional wisdom in Mexico over the past decades has been that drug-related violence has spiked dramatically because of the actions of government. 
+“I thought it would start as a side project,” Leiby said, “and I was coding on the bus ride to Microsoft every morning. It wasn’t difficult work, but I was satisfied by feeling like it was applied to something I care about.”
 
-The story goes like this: the government tolerated the cartels for several decades, but starting with the election of President Calderón in 2006, increased police and military operations against the cartels sparked a new wave of violence against the armed forces, public figures and the general population.
+Leiby explained that there is often a blind tendency for society to rely on mobile technology to address issues in remote communities. “Everyone wants to put a cell phone in someone’s hand and think that'll solve the problem. But we wanted to think about it more systematically in order to reach a rural population.” For example, how do you provide a health record for an illiterate person? Leiby described new voice recognition and graphical features of the software that could help Raxa reach disadvantaged populations.
 
-<a href="http://justiceinmexico.files.wordpress.com/2012/03/2012-tbi-drugviolence.pdf">
-	<img src="/img/posts/mexico-killings.png">
+It didn’t take long for Leiby to consider making the leap to work full-time for Raxa. He explained that the project started with a loose organization of contributors, but that it made more logistical sense to gather in a single location to further develop their product. He decided after visiting India for a month to join their full-time team in New Delhi.
+
+
+<a href="http://raxa.org/content/map-raxa-contributors">
+	<img src="/img/posts/raxa-contributors.png">
 </a>
 
-“But that’s a reductionist way of looking at the drug war,” Fernández said. According to her, this perspective is the result of an availability bias born from the migration of violence from rural to urban areas. That is, violent events weren’t really new to the country, but suddenly became much more visible to most of the population.
+Leiby served as the team’s lead software developer, helping hire nine employees and supporting the organization as it applied for and won a $15,000 grant from [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2013). After about six months, he decided it was time for another change.
 
-But how do you investigate a nationwide trend involving criminal organizations which are, to say the least, unlikely to respond to your carefully-designed survey, or to give you their institutional data? 
+Leiby then moved to Haiti to work on a project for the [Caris Foundation](http://www.carisfoundation.org/), a nonprofit organization that provides medical relief to needy communities in the Americas, Africa and Asia. In Haiti, one of their missions is to prevent mother-to-child HIV transmission. However, the organization identified that there were communication gaps preventing the parties involved in health care delivery from making this a reality. Although transmission of the disease can be mitigated with drugs, the mothers’ test results held by Haiti’s national labs were inaccessible to doctors because they weren’t easily available online. 
 
-This is where Fernández draws upon her passion for interdisciplinary research and her expertise in mathematics and political science. As part of a team of computer scientists, statisticians and government officials, Fernández helped mine years of publicly-available news articles, blogs, and YouTube videos to track the presence of drug traffickers across Mexico and over time. (This research is available [here](http://www.gov.harvard.edu/files/videos/CosciaRios_GoogleForCriminals.pdf).)
+Leiby’s team developed a health software that became the glue between the care, the clinics, the mothers and the national testing labs by providing digitization and online record keeping services for HIV test results and other aspects of pediatric care. This way, care providers knew to whom and when to administer antiretroviral drugs in order to reduce the likelihood of mother-to-child HIV transmission from as high as 45% to under 5%, according to the World Health Organization (WHO). (http://www.who.int/hiv/topics/mtct/en/)
 
-<a href="http://www.gov.harvard.edu/files/videos/CosciaRios_GoogleForCriminals.pdf">
-	<img src="/img/posts/mexico-cartel-map.png">
+
+<a href="http://nathanleiby.github.io/growthchart/">
+	<img src="/img/posts/growth-chart.png">
 </a>
 
-The team then used this drug trafficker data to analyze the escalating violence in certain regions of the country. They confirmed that drug-related violence is much older than most Mexicans realize, and found that turf wars between drug traffickers are the key driver of recent violence in conflict areas - government crackdowns matter, but are far from the whole story. (That research is available [here](http://justiceinmexico.files.wordpress.com/2012/03/2012-tbi-drugviolence.pdf).)
+Leiby was still in the Caribbean when he heard about the DSSG fellowship. He was attracted to the diversity of the problems and saw the program as an opportunity to apply his software development skills to social issues and to branch out into other domains.
 
-<a href="http://justiceinmexico.files.wordpress.com/2012/03/2012-tbi-drugviolence.pdf">
-	<img src="/img/posts/mexico-violence-map.png">
-</a>
+“While I've done a lot of health-related stuff, I'm pretty young in my career and I'm not quite ready to be pigeon-holed,” Leiby said. He’s one of three fellows focusing their summer efforts on the [Ushahidi](/2013/07/15/ushahidi-machine-learning-for-human-rights.html) project. Their goal is to develop a tool that can help governments speed up response time during crises like natural disasters by automating the handling of requests for help made over SMS and social media.
 
-The similar team diversity among the [Data Science for Social Good fellows](http://www.dssg.io/people) and mentors is part of what drew Fernández to apply to the program. “I’ve always looked for a combination of what I like to do: programming and understanding topics with data. I’ve always been chasing the interdisciplinary teamwork aspect,” she said.
+“I have a sense of confidence that we can accomplish our goals, but I haven’t solved something like this before,” he said. One of Leiby’s main concerns is how the team will know whether the software will work as well as intended. Ideally, it could eliminate the manual step performed by a human worker to categorize a request for help, but how much of an impact would this saved time have on the course of events? Could it really save someone’s life? These are key questions the team will investigate with Ushahidi as the fellowship progresses.
 
-Fernández is passionate about improving the analytical skills of political scientists, a desire that has remained with her since her college days. While pursuing her Bachelor’s degree in mathematics and political science at the [Instituto Tecnológico Autónomo de México](http://www.itam.mx/en/), one of Mexico’s top universities, she served as both a teaching and research assistant.
+While Leiby has been hard at work coding for the Ushahidi project and mentoring other fellows in the use of programming tools like [Python](http://www.python.org/) and [Django](https://www.djangoproject.com/), he’d also like to broaden his horizons.
 
-Fernández, who described herself as “skeptical,” has no illusions about having an easy project this summer. 
+“I was interested in two things coming in: predictive analytics and statistics,” Leiby said. Although he was aware of these topics from past experiences with his work and open source projects, he had always wished for an opportunity to learn more about them and apply them to a real problem. While working at Raxa and considering how to design systems that could analyze what conditions a patient was at risk for, he said, “the statistics and machine learning problems seemed inaccessible to me.”
 
-“We have a real challenge here,” she said. “We have a great set of skills, we have these really cool projects, but we need to be careful of how we approach them. It’s important for us to provide feasible solutions that will benefit these groups.”
+The fellowship has delivered on his wish in short order through a deluge of guest speakers and peer instruction. “It's really neat to see someone outline ten things I've never done but could be useful,” Leiby said.
+ 
+Leiby plans to use his experiences in the fellowship to help him decide whether he’d like to continue a career in data science in the public sector. “At some level, a lot of people are interested in these problems, but I want to know, who’s doing it? I want to get involved with them.”
 
-Time constraints are her greatest fear for the summer, which is duly noted since only 10 weeks remain in the fellowship. “My hope is that we'll cover a lot and at least make a prototype,” Fernández said. She believes that the greatest success would be in creating novel approaches that capitalize on the latest technology, and which have not been available to her partner government agency in the past.
-
-<a href="http://www.gov.harvard.edu/files/videos/CosciaRios_GoogleForCriminals.pdf">
-	<img src="/img/posts/mexico-cartels.png">
-</a>
-
-Fernández's research on the Mexican drug cartels with left her with a negative impression about the Mexican government’s willingness to support such work. However, she’s not without hope. “Some of my friends made [data-related projects] work in Mexico,” where, she said, “open government has been forgotten.” 
-
-She hopes that the political climate in Chicago and the US more broadly is more receptive to the open data movement. Indeed, she views the fellowship as an opportunity to test the waters for a career in open government. 
-
-As for the future? “I want to do a PhD eventually,” Fernández said, citing the next few years as a possible timeframe. She also mentioned the possibility of working for an open data startup or government organization back in Mexico. “I’m keeping an open mind.”
+For anyone facing their own career decisions, Leiby has some advice to offer. “I value experiences a lot,” he said, “so don't hesitate to change what you're doing if you think an opportunity is really awesome. Something that doesn’t pan out isn’t really a failure, it’s an exploration.”
 
 *Skyler Whorton is a Data Science for Social Good fellow from Worcester Polytechnic Institute.*
