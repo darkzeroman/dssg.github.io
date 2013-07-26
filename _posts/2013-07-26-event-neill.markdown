@@ -2,7 +2,7 @@
 type: event
 speakers: "Daniel Neill (Carnegie Mellon University)"
 img: neill.jpg
-future: 'yes'
+future: 'no'
 website: "http://www.cs.cmu.edu/~neill/"
 event: Machine Learning and Event Detection for the Public Good
 time: 12:30pm
