@@ -8,7 +8,7 @@ pic: nathan.jpg
 
 The core goal of the [Data Science for Social Good](http://www.dssg.io) fellowship is to connect technically skilled people to social problems. For Nathan Leiby, this is already familiar territory. [Leiby](http://www.nathanleiby.com/) is a computer science graduate from Harvard University and has spent the past few years working at the intersection of health and technology. He’s traveled from Massachusetts to Botswana, India and Haiti in pursuit of opportunities to apply computer science to global issues.
  
-Leiby says his experience in college was an exploratory process. “I didn't have a clear view that I'd go into CS,” he said. He started by taking courses in music theory, biology and Swahili, but above all, he knew he wanted to travel. This wanderlust combined with an emergent interest in medicine inspired him to study viral evolution at a research laboratory in Botswana. As a student in the [Botswana-Harvard Partnership](http://www.hsph.harvard.edu/bhp/), an AIDS research organization, he helped doctors categorize HIV cases and study human genome changes after infection.
+Leiby says his experience in college was an exploratory process. “I didn't have a clear view that I'd go into CS,” he said. He started by taking courses in music theory, biology and Swahili, but above all, he knew he wanted to travel. This wanderlust combined with an emergent interest in medicine inspired him to study viral evolution at a research laboratory in Botswana. As a student in the [Botswana-Harvard Partnership](http://www.hsph.harvard.edu/bhp/), an AIDS research organization, he helped doctors categorize HIV cases and study viral genome characteristics after infection.
  
 “As much as I admired the work they did, I didn’t think being a doctor was the right thing for me,” Leiby said. He returned to the Harvard campus and soon found another inspiration.
  
@@ -32,11 +32,11 @@ It didn’t take long for Leiby to consider making the leap to work full-time fo
 </a>
 *Map of Raxa contributors*
 
-Leiby served as the team’s lead software developer, helping hire nine employees and supporting the organization as it applied for and won a $15,000 grant from [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2013). After about six months, he decided it was time for another change.
+Leiby served as the team’s lead software developer, helping hire employees and supporting the organization as it applied for and won a $15,000 grant from [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2013). After about six months, he decided it was time for another change.
 
-Leiby then moved to Haiti to work on a project for the [Caris Foundation](http://www.carisfoundation.org/), a nonprofit organization that provides medical relief to needy communities in the Americas, Africa and Asia. In Haiti, one of their missions is to prevent mother-to-child HIV transmission. However, the organization identified that there were communication gaps preventing the parties involved in health care delivery from making this a reality. Although transmission of the disease can be mitigated with drugs, the mothers’ test results held by Haiti’s national labs were inaccessible to doctors because they weren’t easily available online. 
+Leiby then moved to Haiti to work on a project for the [Caris Foundation](http://www.carisfoundation.org/), a nonprofit organization that provides medical relief to needy communities in the Americas, Africa and Asia. In Haiti, one of their missions is to prevent mother-to-child HIV transmission. However, the organization identified that there were communication gaps preventing the parties involved in health care delivery from making this a reality. Although transmission of the disease can be mitigated with drugs, the children’s test results held by Haiti’s national labs were inaccessible to doctors because they weren’t easily available online. 
 
-Leiby’s team developed a health software that became the glue between the care, the clinics, the mothers and the national testing labs by providing digitization and online record keeping services for HIV test results and other aspects of pediatric care. This way, care providers knew to whom and when to administer antiretroviral drugs in order to reduce the likelihood of mother-to-child HIV transmission from as high as 45% to under 5%, according to the [World Health Organization] (http://www.who.int/hiv/topics/mtct/en/).
+Leiby worked with Caris to develop health software that became the glue between the care, the clinics, the mothers and the national testing labs by providing digitization and online record keeping services for HIV test results and other aspects of pediatric care. This way, care providers knew to whom and when to administer antiretroviral drugs in order to reduce the likelihood of mother-to-child HIV transmission; a low-hanging fruit that has been seen to reduce prevalence from as high as 45% to under 5%, according to the [World Health Organization] (http://www.who.int/hiv/topics/mtct/en/).
 
 
 <a href="http://nathanleiby.github.io/growthchart/">
@@ -45,7 +45,7 @@ Leiby’s team developed a health software that became the glue between the care
 
 Leiby was still in the Caribbean when he heard about the DSSG fellowship. He was attracted to the diversity of the problems and saw the program as an opportunity to apply his software development skills to social issues and to branch out into other domains.
 
-“While I've done a lot of health-related stuff, I'm pretty young in my career and I'm not quite ready to be pigeon-holed,” Leiby said. He’s one of three fellows focusing their summer efforts on the [Ushahidi](/2013/07/15/ushahidi-machine-learning-for-human-rights.html) project. Their goal is to develop a tool that can help governments speed up response time during crises like natural disasters by automating the handling of requests for help made over SMS and social media.
+“While I've done a lot of health-related stuff, I'm pretty young in my career and I'm not quite ready to be pigeon-holed,” Leiby said. He’s one of three fellows focusing their summer efforts on the [Ushahidi](/2013/07/15/ushahidi-machine-learning-for-human-rights.html) project. Their goal is to develop a machine learning tool that can help responders quickly evaluate information during crises like natural disasters by automating the handling of requests for help made over SMS and social media.
 
 “I have a sense of confidence that we can accomplish our goals, but I haven’t solved something like this before,” he said. One of Leiby’s main concerns is how the team will know whether the software will work as well as intended. Ideally, it could eliminate the manual step performed by a human worker to categorize a request for help, but how much of an impact would this saved time have on the course of events? Could it really save someone’s life? These are key questions the team will investigate with Ushahidi as the fellowship progresses.
 
@@ -55,7 +55,7 @@ While Leiby has been hard at work coding for the Ushahidi project and mentoring 
 
 The fellowship has delivered on his wish in short order through a deluge of guest speakers and peer instruction. “It's really neat to see someone outline ten things I've never done but could be useful,” Leiby said.
  
-Leiby plans to use his experiences in the fellowship to help him decide whether he’d like to continue a career in data science in the public sector. “At some level, a lot of people are interested in these problems, but I want to know, who’s doing it? I want to get involved with them.”
+Leiby plans to use his experiences in the fellowship to help him decide whether he’d like to continue a career in data science in the public sector. “At some level, a lot of people are interested in these problems, but I want to know, who’s doing it well and making an impact? I want to get involved with them.”
 
 For anyone facing their own career decisions, Leiby has some advice to offer. “I value experiences a lot,” he said, “so don't hesitate to change what you're doing if you think an opportunity is really awesome. Something that doesn’t pan out isn’t really a failure, it’s an exploration.”
 
