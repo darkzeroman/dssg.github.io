@@ -30,12 +30,13 @@ It didn’t take long for Leiby to consider making the leap to work full-time fo
 <a href="http://raxa.org/content/map-raxa-contributors">
 	<img src="/img/posts/raxa-contributors.png">
 </a>
+*Map of Raxa contributors*
 
 Leiby served as the team’s lead software developer, helping hire nine employees and supporting the organization as it applied for and won a $15,000 grant from [Google Summer of Code](http://www.google-melange.com/gsoc/homepage/google/gsoc2013). After about six months, he decided it was time for another change.
 
 Leiby then moved to Haiti to work on a project for the [Caris Foundation](http://www.carisfoundation.org/), a nonprofit organization that provides medical relief to needy communities in the Americas, Africa and Asia. In Haiti, one of their missions is to prevent mother-to-child HIV transmission. However, the organization identified that there were communication gaps preventing the parties involved in health care delivery from making this a reality. Although transmission of the disease can be mitigated with drugs, the mothers’ test results held by Haiti’s national labs were inaccessible to doctors because they weren’t easily available online. 
 
-Leiby’s team developed a health software that became the glue between the care, the clinics, the mothers and the national testing labs by providing digitization and online record keeping services for HIV test results and other aspects of pediatric care. This way, care providers knew to whom and when to administer antiretroviral drugs in order to reduce the likelihood of mother-to-child HIV transmission from as high as 45% to under 5%, according to the World Health Organization (WHO). (http://www.who.int/hiv/topics/mtct/en/)
+Leiby’s team developed a health software that became the glue between the care, the clinics, the mothers and the national testing labs by providing digitization and online record keeping services for HIV test results and other aspects of pediatric care. This way, care providers knew to whom and when to administer antiretroviral drugs in order to reduce the likelihood of mother-to-child HIV transmission from as high as 45% to under 5%, according to the [World Health Organization] (http://www.who.int/hiv/topics/mtct/en/).
 
 
 <a href="http://nathanleiby.github.io/growthchart/">
