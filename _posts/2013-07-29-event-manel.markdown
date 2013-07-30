@@ -2,7 +2,7 @@
 type: event
 speakers: "Manel Sanroma"
 img: sanroma.jpg
-future: 'yes'
+future: 'no'
 website: ""
 event: "Data Strategy: Barcelona City Council"
 time: 2:00pm

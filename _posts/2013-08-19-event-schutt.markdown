@@ -4,7 +4,7 @@ speakers: "Rachel Schutt"
 img: rachel.jpg
 future: 'yes'
 website: "http://idse.columbia.edu/rachel-schutt-0"
-event: Rachel Schutt, A Humanist Approach to Data Science
+event: A Humanist Approach to Data Science
 time: 12:30pm
 ---
 Rachel Schutt has a PhD in Statistics from Columbia University, and is a Senior Research Scientist at Johnson Research Labs (an NYC start-up). Prior to that, she was a statistician at Google Research for several years. She is an Adjunct Assistant Professor in Columbia’s Statistics Department, and a founding member of the Education Committee for the Institute for Data Sciences and Engineering at Columbia. Rachel created the first data science course at Columbia (and one of the first in the United States), Introduction to Data Science, and is co-authoring a book called “Doing Data Science” to be published by O’Reilly in 2013 based on the course. 
