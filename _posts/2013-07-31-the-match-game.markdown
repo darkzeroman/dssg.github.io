@@ -21,9 +21,9 @@ The primary question that NFP would like to answer is, "what would have happened
  
 One could compare the mothers and children enrolled in NFP to the general population, but that would not be the most accurate comparison. Aside from the low income that qualifies a pregnant woman for enrollment, NFP mothers are also less likely to be a high school graduate, less likely to be married, more likely to be from a minority group and younger than the average U.S. mother.  These characteristics plausibly affect the wellbeing of the mother and child independently, so NFP mothers should be compared to non-NFP mothers with similar characteristics.
 
-<img src="/img/posts/nfp-income.png"></a>
-<img src="/img/posts/nfp-race.png"></a>
-<img src="/img/posts/nfp-graduation.png"></a>
+<img src="/img/posts/nfp-income.png">
+<img src="/img/posts/nfp-race.png">
+<img src="/img/posts/nfp-graduation.png">
 
 These differences would naturally be expected to influence a mother and child along the results that NFP most cares about: birth outcomes, the economic self sufficiency of the mother and the child's health and development. So the NFP team applied propensity score matching to their analysis, in order to compare mothers enrolled in NFP to mothers in the general population who closely match their demographics. While it may be simple to compare groups according to one characteristic, such as race or income, matching over several measures quickly becomes statistically challenging.
 
@@ -41,7 +41,7 @@ For finding these matches, it would be ideal if there was a single, accessible, 
 
 For the immunization comparison, the team used the [National Immunization Survey](http://www.cdc.gov/nchs/nis.htm), a project run by the Centers for Disease Control and Prevention since 1994. The NIS conducts telephone surveys and surveys of doctors and other vaccination providers to collect data on children between 19 and 35 months of age. The survey reports national rates of compliance with federal guidelines for vaccination against diseases such as polio, measles, pertussis and tetanus.
 
-<a href="http://www.cdc.gov/vaccines/stats-surv/nis/figures/2011_map.htm"><img src="/img/posts/cdc-NIS.png">
+<a href="http://www.cdc.gov/vaccines/stats-surv/nis/figures/2011_map.htm"><img src="/img/posts/cdc-NIS.png"></a>
 
 The team compared the vaccination rates in children of mothers enrolled in NFP to the children of mothers in the overall NIS dataset. After running propensity score matching with the NIS, they could also compare how NFP children did to closely-matched children – those whose mothers looked likely to be enrolled in NFP, but were not. The data revealed a positive effect of NFP on immunization rates compared to the other two groups.
 
