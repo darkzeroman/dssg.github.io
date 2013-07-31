@@ -41,7 +41,7 @@ For finding these matches, it would be ideal if there was a single, accessible, 
 
 For the immunization comparison, the team used the [National Immunization Survey](http://www.cdc.gov/nchs/nis.htm), a project run by the Centers for Disease Control and Prevention since 1994. The NIS conducts telephone surveys and surveys of doctors and other vaccination providers to collect data on children between 19 and 35 months of age. The survey reports national rates of compliance with federal guidelines for vaccination against diseases such as polio, measles, pertussis and tetanus.
 
-<a href="http://www.cdc.gov/vaccines/stats-surv/nis/figures/2011_map.htm"><img src="/img/posts/cdc-NIS.png"></a>
+<a href="http://www.cdc.gov/vaccines/stats-surv/nis/figures/2011_map.htm"><img src="/img/posts/cdc-NIS.jpg"></a>
 
 The team compared the vaccination rates in children of mothers enrolled in NFP to the children of mothers in the overall NIS dataset. After running propensity score matching with the NIS, they could also compare how NFP children did to closely-matched children – those whose mothers looked likely to be enrolled in NFP, but were not. The data revealed a positive effect of NFP on immunization rates compared to the other two groups.
 
@@ -51,7 +51,7 @@ That lack of an effect in prior studies was due more to high rates of immunizati
 
 <img src="/img/posts/nfp-immunization.png">
 
-But in the fellows' analysis, the "matched group" with similar characteristics to NFP mothers demonstrated lower immunization rates than the general population, potentially strengthening the impact of the NFP program on this outcome.
+But in the fellows' analysis, the "matched group" with similar characteristics to NFP mothers showed lower immunization rates than the general population, potentially offering more room for improvement on this outcome.
 
 Still, this analysis remains preliminary, and the fellows want to do more digging into the nature of the datasets from the NFP and other sources. In one fortuitous event, a researcher working with the National Immunization Survey attended a recent Data Science Chicago Meetup where the NFP team presented their project [DSSG events page link], and offered to share his expertise about the study with the fellows. The serendipitous meeting was a testament to why it's important to keep a project transparent and open to outside observers, the team said. 
 
