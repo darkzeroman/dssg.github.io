@@ -2,7 +2,7 @@
 type: event
 speakers: "Neeru Khosla"
 img: khosla.jpg
-future: 'yes'
+future: 'no'
 website: "http://en.wikipedia.org/wiki/Neeru_Khosla"
 event: Co-Founder of the CK-12 Foundation
 time: 1:30pm
