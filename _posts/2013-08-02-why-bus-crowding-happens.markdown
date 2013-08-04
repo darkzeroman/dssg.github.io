@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Why Bus Crowding Happens and How Data Can Help"
-author: Juan-Pablo Velez and Andres Akle Caranaza
+title: "CTA: Why Bus Crowding Happens and How Data Can Help"
+author: "Juan-Pablo Velez and Andres Akle Carranza"
 pic: "cta-header.jpg"
-pic-caption: "A CTA bus arrives at the Oak Park Blue Line station."
-pic-credit: benhusmann
+"pic-caption": A CTA bus arrives at the Oak Park Blue Line station.
+"pic-credit": benhusmann
+published: true
 ---
 
 We've all been there: standing at an intersection, waiting for the bus to come. Passengers keep arriving at the stop, and you start to realize you could have a crowded ride ahead. When the bus finally arrives, it's packed. Should you wait for the next bus? Or will it be just as crowded - or possibly more so? 
@@ -103,7 +104,3 @@ Bus service simulations - reflecting the natural variability in ridership and se
 That's the model that the fellows on the CTA team are working on this summer, which we will cover in detail in our next post. 
 
  1. The CTA also applies [Service Standards](http://www.transitchicago.com/assets/1/miscellaneous_documents/servicestandards129737.pdf) (pdf), system-wide policy objectives for its bus service that govern minimum service levels, hours of operation, and more. These objectives exist to ensure that the agency can provide widespread access to buses while maintaining a cost-effective service.
-
-
- 
-
