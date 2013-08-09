@@ -2,7 +2,7 @@
 layout: post
 title: "The Match Game: Measuring the National Impact of Nurse-Family Partnership"
 author: Rob Mitchum
-pic: "nfp-header.jpg"
+pic: nfp-header.jpg
 pic-caption: "An NFP nurse weighs a child as part of a home visit."
 pic-credit: Lake County (IL) Health Department
 ---
