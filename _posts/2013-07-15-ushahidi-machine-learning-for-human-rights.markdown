@@ -2,9 +2,10 @@
 layout: post
 title: "Ushahidi: Machine Learning for Human Rights"
 author: Rob Mitchum
-pic: "kenyanelections.jpg"
-pic-caption: "Kenyans line up to vote for the 2013 presidetial elections."
-pic-credit: ILRI
+pic: kenyanelections.jpg
+"pic-caption": Kenyans line up to vote for the 2013 presidetial elections.
+"pic-credit": ILRI
+published: true
 ---
 
 **"2-car acc @ State & Lake, both drivers injred" **
@@ -62,7 +63,7 @@ You simply plug in a tweet or SMS report, and the tool attempts to extract entit
 
 The team constructed this prototype using off-the-shelf machine learning tools for free text recognition and categorization. For automatic categorization of messages, the team is using [scikit-learn](http://scikit-learn.org/stable/), a Python machine learning library fellow Scott Alfeld introduced them to. The team is also working with the [NLTK](http://nltk.org/) library to recognize entities and locations, and [SimHash](https://github.com/owainlewis/sim-hash) to detect duplicate messages. 
 
-The original prototype’s performance… well, it's "not very good yet," according to Jacobs. But this first iteration is a crucial first step towards the ultimate goal of the summer.
+The original prototype’s performance… well, it's "not very good yet," according to Jacobs, from Technion: Israel Institute of Technology. But this first iteration is a crucial first step towards the ultimate goal of the summer.
  
 "That's the very baseline proof that it's possible," Leiby said. "Then we can start to ask other questions: Is this the kind of information they would want? Can we give it to them in a more accurate or more prioritized form? How do we make it useful for you?"
  
@@ -73,10 +74,3 @@ Going forward, the team will flesh out the prototype, improving it iteratively a
 Happily, the team found themselves with complementary talents that can be applied to these problems. While Kayla applies her background in natural language processing to the entity and duplicate recognition tasks, Kwang is using his machine learning experience to improve detection of categories and language, and Nathan is in charge of software framework setup and integration, as well as writing UI code.
  
 "We've got three main sides to our project, which fits our team really well," Jacobs said. "It's been a real pleasure to work on this team, because we all have our own strengths and ways we can both teach each other and learn from each other."
- 
- 
- 
- 
- 
- 
-
