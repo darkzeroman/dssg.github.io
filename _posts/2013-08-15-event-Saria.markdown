@@ -1,7 +1,7 @@
 ---
 type: event
 speakers: "Suchi Saria"
-img: 
+img: 'saria.jpg'
 future: 'yes'
 website: "http://idse.columbia.edu/rachel-schutt-0"
 event: Machine Learning Methods for Structure Discovery in Time Series Data with Application to Risk Prediction in Infants
