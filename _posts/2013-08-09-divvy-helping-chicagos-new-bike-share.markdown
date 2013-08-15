@@ -2,8 +2,9 @@
 layout: post
 title: "Divvy: Helping Chicago's New Bike Share Find Its Balance"
 author: Jette Henderson with Adam Fishman
-pic: divvy-header.jpg
-pic-credit: juggernautco
+pic: "divvy-header.jpg"
+"pic-credit": juggernautco
+published: true
 ---
 
 “Wow! What is that? Where’d you get it?,” the beach-going twentysomething asked me. I looked up from the map on my phone and steadied the powder-blue bike under me to answer his question. It was, of course, a Divvy bike - part of Chicago’s hot new bike share system. 
@@ -19,7 +20,7 @@ The beachgoer was not the first stranger to ogle my Divvy bike that day. I rode 
 #### The Rise of Bikeshare
 Bikeshare allows people to hop on one of 4,000 bikes at one of 400 stations, take a short trip, and drop the bikes off at another station. In doing so, the system expands the options of commuters. Given the radial layout of the El, as you move farther away from downtown, the more likely is is that you have a long walk to a stop. Divvy is perfect for those short one-way trips and has the potential to make commutes or travel at any time of the day much simpler. It’s also great for quick hops around the neighborhood.
 
-In addition to making it easier to get around cities - what transportation researches call mobility - bikeshare is good for road congestion, the environment and people’s health. Because it makes trains and buses easier to reach, it can induce people to switch their commute from driving to transit, leading to less traffic and fewer greenhouse gases. And biking burns more calories than the sedentary exercise of sitting in a car. 
+In addition to making it easier to get around cities - what transportation researchers call mobility - bikeshare is good for road congestion, the environment and people’s health. Because it makes trains and buses easier to reach, it can induce people to switch their commute from driving to transit, leading to less traffic and fewer greenhouse gases. And biking burns more calories than the sedentary exercise of sitting in a car. 
 
 Chicago’s bike share is new, but programs like it have been popping up all over the world since 2007. Velib’, the bike share program in Paris, has over 24,000 bikes in its system. New York City’s Citi Bike program, which barely edged out Divvy with its launch this past May, is the largest in the US. Oliver O’Brien, a research associate at the University College of London, created the map below to show the location and size of bike share programs around the world. 
 
