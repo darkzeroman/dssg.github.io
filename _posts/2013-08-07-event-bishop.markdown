@@ -2,7 +2,7 @@
 type: event
 speakers: "Rob Bishop"
 img: bishop.jpg
-future: 'yes'
+future: 'no'
 website: "http://raspberrypi.org/"
 event: "Raspberry Pi - One Year On"
 time: 12:00pm

@@ -2,78 +2,60 @@
 layout: post
 title: "Divvy: Helping Chicago's New Bike Share Find Its Balance"
 author: Jette Henderson with Adam Fishman
-pic: divvy1.jpg
-pic-caption: "An NFP nurse weighs a child as part of a home visit."
+pic: divvy-header.jpg
 pic-credit: juggernautco
 ---
 
-There are thousands of organizations around the country that are dedicated to helping people in need. Yet despite those good intentions, few of those organizations are scientifically rigorous in evaluating their strengths and weaknesses in order to make changes to maximize positive impact in as many people as possible. The reasons are easy to understand: a thorough evaluation is time-consuming, expensive, requires skilled scientists to administer and may produce uncomfortable results. But in a time where government and private funders want to see more concrete benefits from their investment, non-profits are increasingly pressured to demonstrate – and quantify – their impact.
+“Wow! What is that? Where’d you get it?,” the beach-going twentysomething asked me. I looked up from the map on my phone and steadied the powder-blue bike under me to answer his question. It was, of course, a Divvy bike - part of Chicago’s hot new bike share system. 
 
-For four decades, [Nurse-Family Partnership (NFP)](http://www.nursefamilypartnership.org/) has stood out among social need organizations as a model for science-based self-evaluation. Founded by developmental psychologist David Olds in the 1970s, NFP sends nurses to the homes of low-income, first-time mothers during their pregnancy and the first two years of the child's life. Before scaling up nationally, NFP rigorously tested its methods with [randomized controlled trials](http://www.nursefamilypartnership.org/Proven-Results/Published-research), the gold standard of clinical research, in three very different locations (Elmira, NY, Memphis and Denver) with different racial mixes, in three different decades.
+As a car-less visitor in Chicago, I spent the first month of the fellowship relying on my feet  and the public transit feature of Google Maps to get around the city. After Divvy launched in early July, the city felt much smaller. 
 
-<a href="http://www.nursefamilypartnership.org/"><img src="/img/partners/nfp.jpg"></a>	
+That day, I had picked up a bike on Ohio St. just west of Lake Shore Drive. After riding for two minutes to get to the beach, I was trying to figure out how to spend the twenty-eight minutes remaining on my pass before returning my bike at a Divvy station somewhere else in the city. We chatted a bit more about bike share, and he wandered off to play beach frisbee while I hit the Lake Shore Trail to spend my remaining twenty-four minutes. 
 
-It has been 19 years since the last of those studies began, and NFP chapters have since expanded to 43 states. The broader implementation – and increased pressure for evidence-based accountability from federal funders – creates the need for new evaluations. But the expense of running new randomized controlled trials in all of those locations would be astronomical, so the organization is interested in new methods they can use to measure their national effect. For their summer project, Data Science for Social Good fellows Joe Walsh, Adam Fishman and Emily Rowe (along with mentor Nick Mader) are helping NFP find a new data-driven way of assessing their impact, creating a new process that can be used by NFP and similar organizations to assess their actions, demonstrate results to funders and find new ways of improving the program in the future.
+The beachgoer was not the first stranger to ogle my Divvy bike that day. I rode away satisfied that I was able to evangelize for the Divvy program while taking the afternoon off from the Data Science for Social Good project -- with Breanna Miller, Hunter Owens, Juan-Pablo Velez, Walter Dempsey, Adam Fishman, and Vidhur Vohra -- to help Divvy run more smoothly. 
 
-####Finding the Right Match
+<a href="http://http://divvybikes.com//"><img src="/img/partners/divvy.jpg"></a>	
 
-The primary question that NFP would like to answer is, "what would have happened if the mother had not enrolled in NFP?" In the randomized controlled trials, this could be easily settled by randomly assigning qualified mothers into treatment and control groups and comparing the outcomes. But demonstrating the program's effectiveness on a national scale is very difficult. While NFP has collected data on every one of its nurse home visits since 1996, NFP does not collect information on the ideal control population: mothers who they do not serve.
- 
-One could compare the mothers and children enrolled in NFP to the general population, but that would not be the most accurate comparison. Aside from the low income that qualifies a pregnant woman for enrollment, NFP mothers are also less likely to be a high school graduate, less likely to be married, more likely to be from a minority group and younger than the average U.S. mother.  These characteristics plausibly affect the wellbeing of the mother and child independently, so NFP mothers should be compared to non-NFP mothers with similar characteristics.
+#### The Rise of Bikeshare
+Bikeshare allows people to hop on one of 4,000 bikes at one of 400 stations, take a short trip, and drop the bikes off at another station. In doing so, the system expands the options of commuters. Given the radial layout of the El, as you move farther away from downtown, the more likely is is that you have a long walk to a stop. Divvy is perfect for those short one-way trips and has the potential to make commutes or travel at any time of the day much simpler. It’s also great for quick hops around the neighborhood.
 
-<img src="/img/posts/nfp-income.png">
-<img src="/img/posts/nfp-race.png">
-<img src="/img/posts/nfp-graduation.png">
+In addition to making it easier to get around cities - what transportation researches call mobility - bikeshare is good for road congestion, the environment and people’s health. Because it makes trains and buses easier to reach, it can induce people to switch their commute from driving to transit, leading to less traffic and fewer greenhouse gases. And biking burns more calories than the sedentary exercise of sitting in a car. 
 
-These differences would naturally be expected to influence a mother and child along the results that NFP most cares about: birth outcomes, the economic self sufficiency of the mother and the child's health and development. So the NFP team applied propensity score matching to their analysis, in order to compare mothers enrolled in NFP to mothers in the general population who closely match their demographics. While it may be simple to compare groups according to one characteristic, such as race or income, matching over several measures quickly becomes statistically challenging.
+Chicago’s bike share is new, but programs like it have been popping up all over the world since 2007. Velib’, the bike share program in Paris, has over 24,000 bikes in its system. New York City’s Citi Bike program, which barely edged out Divvy with its launch this past May, is the largest in the US. Oliver O’Brien, a research associate at the University College of London, created the map below to show the location and size of bike share programs around the world. 
 
-"If you want to identify two people as similar for statistical purposes, it's very hard if you have several characteristics about them," said Fishman. "What propensity score matching does is, instead of saying 'are these two people exactly the same?' you say 'which people will have the closest likelihood of being part of this program?'"  
+<a href="http://bikes.oobrien.com/global.php"><img src="/img/posts/global-bike-map.png"></a>	
 
-Instead of finding exact matches, their analysis (which uses R and its ["Matching"](http://cran.r-project.org/web/packages/Matching/index.html) package) can assign a propensity score to each subject in a dataset – the probability that, given their combination of characteristics, the mother would qualify for NFP. So if a mother in a non-NFP dataset is calculated to have had a 70 percent chance of enrolling in the program, she can be considered a match for an NFP mother who also had a 70 percent chance of enrolling, and a more accurate comparison point.  
+As these bikeshare programs grow in popularity, they converge upon a common problem. The flow of commuting residents often means that more people bike in one direction than in the other at different times of the day. In Chicago, the majority of commuters travel from outlying neighborhoods into downtown Chicago in the morning, and then back to those neighborhoods in the evening.
 
-"It's odd because you're predicting the probability that they'll be in NFP, while at the same time you know whether they were in NFP or not. You're basically saying, 'how much do you look like someone who is in NFP?'," Rowe said. 
+Commuters might face a problem in the morning when they try to dock their bikes only to find the station is full. In the afternoon, they might leave work and find no bikes to ride at the corner station. Bike share companies call this mismatch between the expectations of the rider and the reality of the station a “balancing” problem. 
 
-Matching alone does not create a perfect control group.  The team does not have data on every characteristic that could conceivably impact the outcomes in question, including ["dark matter" data points](http://dssg.io/2013/06/19/the-dark-matter-of-public-policy-data.html) like neighborhood qualities and characteristics like motivation or ambition.  If these qualities are not balanced between the participants and nonparticipants in the analysis, that imbalance could affect the accuracy of impact measurements.  However, since a randomized controlled trial is often not possible at the scale of NFP’s full programs, the team’s goal is to quantify NFP’s impacts as accurately as possible and answer a question that is critical for national social policy.
+We can see this trend in the following graph that shows the average number of bikes at two [Capital Bikeshare](http://www.capitalbikeshare.com/) stations in Washington D.C. over the course of a day. The averages were taken for every Monday over a year-long period. 
 
-####If The Dataset Fits, Use It
+<img src="/img/posts/divvy-graph.jpg">
 
-For finding these matches, it would be ideal if there was a single, accessible, national dataset containing all of the relevant characteristics and outcomes for mothers and children in the United States. But alas, there is not, so the NFP team spent the first few weeks of the fellowship seeking datasets that they could use to create suitable matches and compare individual outcomes of interest, such as immunization, child developmental markers, breastfeeding or mother's education and employment status.
+In the mornings, commuters check out bikes from the residential station (the green line) and ride them to the train station or downtown, which corresponds to the steep decline starting around 7 am. As bikes leave the residential station, they start piling up at the downtown station between 7 and 9 am. In the afternoon, we see the reverse trend as the number of bikes plummets at the downtown station (the purple line) and commuters ride back home. On this day, the number of bikes at the residential station in the evening does not return all the way back to morning levels, suggesting commuters might not be as likely to ride home from work as they are to ride to work.
 
-For the immunization comparison, the team used the [National Immunization Survey](http://www.cdc.gov/nchs/nis.htm), a project run by the Centers for Disease Control and Prevention since 1994. The NIS conducts telephone surveys and surveys of doctors and other vaccination providers to collect data on children between 19 and 35 months of age. The survey reports national rates of compliance with federal guidelines for vaccination against diseases such as polio, measles, pertussis and tetanus.
+For most of the day, people using the bikeshare system will probably be able to find an available bike at any station, and find an open slot to dock the bike at the end of their ride. But in the middle of the day, the residential station may be empty of bikes, and even if the rider finds one, the downtown station may be full when they get there.
 
-<a href="http://www.cdc.gov/vaccines/stats-surv/nis/figures/2011_map.htm"><img src="/img/posts/cdc-NIS.jpg"></a>
+Divvy and other bikeshare companies solve the balancing problem by driving trucks around the city, picking up bikes from full stations, and redistributing them to less crowded locations.
 
-The team compared the vaccination rates in children of mothers enrolled in NFP to the children of mothers in the overall NIS dataset. After running propensity score matching with the NIS, they could also compare how NFP children did to closely-matched children – those whose mothers looked likely to be enrolled in NFP, but were not. The data revealed a positive effect of NFP on immunization rates compared to the other two groups.
+<img src="/img/posts/divvy-truck.jpg">
+Photo by [Daniel X. O'Neil](http://www.flickr.com/photos/juggernautco)
 
-"To be honest, I'm still shocked about the results," Walsh said. "There are other studies that suggest that there's little to no effect on immunization rates of these particular programs."
+The trouble with the this solution is that there is no great way to plan routes for the trucks. Right now, Divvy and other bike share dispatchers use real-time information about the number of bikes at each station to figure out where to redistribute bikes. Here's what they see in DC's Capital Bikeshare system:
 
-That lack of an effect in prior studies was due more to high rates of immunization in the general public rather than a failing of the NFP program – if the immunization rate in the general population was already high, there wasn't much room for improvement. 
+<img src="/img/posts/dc-bike-dashboard.png">
 
-<img src="/img/posts/nfp-immunization.png">
+They simply look at which stations are currently full or empty, and how long they’ve been that way. Then they move bikes into or out of these stations first.
 
-But in the fellows' analysis, the "matched group" with similar characteristics to NFP mothers showed lower immunization rates than the general population, potentially offering more room for improvement on this outcome.
+In other words, they work by reacting to the current state of the system rather than predicting where to go in the future.
 
-Still, this analysis remains preliminary, and the fellows want to do more digging into the nature of the datasets from the NFP and other sources. In one fortuitous event, a researcher working with the National Immunization Survey attended a recent Data Science Chicago Meetup where the NFP team presented their project [DSSG events page link], and offered to share his expertise about the study with the fellows. The serendipitous meeting was a testament to why it's important to keep a project transparent and open to outside observers, the team said. 
+#### Proactive Re-balancing
+Our goal is to help bike share companies anticipate where full and empty stations will be one hour ahead of time. To this end, we are [building predictive models](www.github.com/dssg/bikeshare) that use current information - such as the number of bikes currently at a station, time of day, day of the week, and weather - as well as historical data to produce a prediction of how many bikes will be at each station in sixty minutes. 
 
-"It's places like that where we need expert opinion and expert help to contribute," Walsh said. "Statistics alone can't do it."
+We will package this prediction model in an easy-to-use map interface for Divvy, which will display the stations on a map and color code them based on how empty or full the model predicts them to be. A dispatcher can look at this presentation and quickly assess and direct the system’s rebalancing needs.
 
-####Beyond the Outcomes
+This tool will help Divvy anticipate rebalancing issues before they arise. Divvy has already expanded the transportation options for people in Chicago, and we want to keep this service running smoothly as it spreads across the city. Hopefully, when seeing a Divvy bike is no longer be a novelty to Chicagoans, finding one won’t be either.
 
-The fellows on the NFP project hope to do more than just conduct a one-time analysis of the program's impact. At the end of the summer, they hope to give NFP the methods to continue to evaluate outcomes as more data is collected, or to conduct more focused studies on different regions of the country. The team's github repository [link] for developing national data sets for comparison will also be open to any other home visitation program that wants to take similar steps to demonstrate their effectiveness.
-
-In addition, the team is working on some more ambitious goals, such as a model that predicts how likely a mother is to complete the full duration of the NFP program through the first two years of their child's life. Some characteristics may identify mothers at higher risk of dropping out early due to a number of different factors. 
-
-The idea came from the team's visit with the DuPage County chapter of the NFP in June, where they had the opportunity to ask nurses about their experiences administering the program.  When asked about mothers who leave the program early, the nurses said they often did not know the reason, or could not have predicted who would stay and who would disappear.  The fellows wonder if the data could suggest subtle patterns that were hidden at the individual level. 
-
-<img src="/img/posts/nfp-visit.jpg">
-
-More broadly, the experience of visiting with the NFP nurses has stuck with the fellows as a reminder that there is a complexity hidden behind the national NFP data they are using for their analyses.
-
-"It was important to get a reminder that there is not a universal NFP experience or client," Rowe said. "Frankly, that makes our job much harder, because when we work with aggregated data sets we often have to assume that individuals and programs are the same except in obvious, measurable ways.  They obviously aren't, and we're going to have to deal with that uncertainty.  It's yet another reason to regularly reflect on the work we're doing and to challenge our assumptions and conclusions."
-
- 
- 
- 
- 
- 
-
+<img src="/img/posts/divvy-dock.jpg">
+Photo by [Daniel X. O'Neil](http://www.flickr.com/photos/juggernautco)

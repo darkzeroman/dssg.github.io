@@ -2,7 +2,7 @@
 type: event
 speakers: "Drew Conway"
 img: conway.jpg
-future: 'yes'
+future: 'no'
 website: "https://twitter.com/drewconway"
 event: Methods for Collecting Large-Scale Non-Expert Text Coding
 time: 12:30pm

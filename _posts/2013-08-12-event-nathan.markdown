@@ -2,7 +2,7 @@
 type: event
 speakers: "Paco Nathan"
 img: nathan.jpg
-future: 'yes'
+future: 'no'
 website: "http://liber118.com/pxn/"
 event: Workflow Abstraction for Cluster Computing
 time: 1:00pm
