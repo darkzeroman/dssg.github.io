@@ -52,7 +52,7 @@ They simply look at which stations are currently full or empty, and how long the
 In other words, they work by reacting to the current state of the system rather than predicting where to go in the future.
 
 #### Proactive Re-balancing
-Our goal is to help bike share companies anticipate where full and empty stations will be one hour ahead of time. To this end, we are [building predictive models](www.github.com/dssg/bikeshare) that use current information - such as the number of bikes currently at a station, time of day, day of the week, and weather - as well as historical data to produce a prediction of how many bikes will be at each station in sixty minutes. 
+Our goal is to help bike share companies anticipate where full and empty stations will be one hour ahead of time. To this end, we are [building predictive models](http://www.github.com/dssg/bikeshare) that use current information - such as the number of bikes currently at a station, time of day, day of the week, and weather - as well as historical data to produce a prediction of how many bikes will be at each station in sixty minutes. 
 
 We will package this prediction model in an easy-to-use map interface for Divvy, which will display the stations on a map and color code them based on how empty or full the model predicts them to be. A dispatcher can look at this presentation and quickly assess and direct the system’s rebalancing needs.
 
